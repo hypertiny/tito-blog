@@ -1,0 +1,6 @@
+name: The Tito Blog
+pygments: true
+# defaults
+sass:
+  syntax: scss        # scss|sass
+  style:  compressed  # nested|expanded|compact|compressed
