@@ -2,8 +2,17 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
+<p class="meta">by {{ page.author }}</p>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
+<ul class="meta categories">
+  {% for tag in page.tags %}
+    <li class="category">{{ tag }}</li>
+  {% endfor %}
+</ul>
+
 <div class="post">
-{{ content }}
+  {{ content }}
 </div>
+
+<p>Want to comment? You can find us on Twitter: <a href="http://twitter.com/usetito">@useTito</a></p>
