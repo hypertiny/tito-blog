@@ -3,7 +3,7 @@ layout: post
 title:  "An eCommerce Refactor: Cleaning up a Common Pattern in a Rails eCommerce App"
 date:   2012-10-18
 author: Paul Campbell
-reading time: 6
+readingtime: 6
 tags:   tag1 tag2
 ---
 
