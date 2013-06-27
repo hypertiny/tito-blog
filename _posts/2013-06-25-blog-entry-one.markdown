@@ -3,6 +3,7 @@ layout: post
 title:  Using Twitter's API to sort friends / followers alphabetically
 date:   2009-03-24
 author: Paul Campbell
+readingtime: 3
 tags:   code test
 ---
 
