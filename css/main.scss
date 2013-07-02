@@ -1,5 +1,44 @@
 /*****************************************************************************/
 /*
+/* Variables
+/*
+/*****************************************************************************/
+
+$asideWidth: 25%;
+
+/*****************************************************************************/
+/*
+/* Mixins
+/*
+/*****************************************************************************/
+
+// Clearfix
+// --------
+// For clearing floats like a boss h5bp.com/q
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Box sizing
+@mixin box-sizing($boxmodel) {
+  -webkit-box-sizing: $boxmodel;
+     -moz-box-sizing: $boxmodel;
+          box-sizing: $boxmodel;
+}
+
+/*****************************************************************************/
+/*
 /* Common
 /*
 /*****************************************************************************/
@@ -24,9 +63,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #226fac; }
+a:hover   { color: #1d6197; }
+a:visited { color: #226fac; }
 
 table {
   font-size: inherit;
@@ -49,7 +88,8 @@ ul.posts {
 }
 
 ul.posts li {
-  line-height: 1.75em;
+  line-height: 1.25;
+  margin-bottom: 1em;
 }
 
 /*****************************************************************************/
@@ -59,37 +99,151 @@ ul.posts li {
 /*****************************************************************************/
 
 .site {
+  bottom: 0;
   font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  left: 0;
   line-height: 1.5em;
+  position: absolute;
+  right: 0;
+  text-align: justify;
+  top: 0;
+  width: 100%;
 
-  .header a {
-    font-weight: bold;
-    text-decoration: none;
+  aside, .content, footer {
+    @include box-sizing(border-box);
+    padding: 2em;
   }
 
-  .header h1.title {
-    display: inline-block;
-    margin-bottom: 2em;
+  aside {
+    background: #1e5c7f;
+    bottom: 0;
+    color: #1c3037;
+    left: 0;
+    line-height: 1;
+    padding: 2em 0;
+    position: fixed;
+    top: 0;
+    width: $asideWidth;
+
+    a {
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    > a > img {
+      display: block;
+      left: 19px;
+      margin: 0 auto;
+      max-width: 100%;
+      opacity: .7;
+      position: relative;
+      width: 10em;
+    }
+
+    h1.title {
+      font-size: 1.5em;
+      display: block;
+      margin: 1em 0 0 0;
+      text-align: center;
+
+     a {
+        color: #1c3037;
+      }
+
+     a:hover {
+        color: #000;
+      }
+    }
+
+    > p {
+      font-family: georgia, serif;
+      font-style: italic;
+      margin: .5em 0;
+      text-align: center;
+    }
+
+    ul.team {
+      @include clearfix;
+      clear: both;
+      list-style-type: none;
+      margin-bottom: 2em;
+      text-align: center;
+
+      li {
+        display: inline-block;
+        margin-left: 5px;
+
+        &:first-child {
+          margin: 0;
+        }
+
+        a {
+          border: 5px solid #1c3037;
+          border-radius: 20px;
+          display: inline-block;
+          height: 30px;
+          width: 30px;
+
+          &:hover {
+            border: 5px solid #101e23;
+          }
+
+          img {
+            border-radius: 20px;
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    ul.posts {
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+      li {
+        line-height: 1.5;
+        margin-bottom: 0;
+        padding: 0;
+        text-align: left;
+
+        a {
+          border-top: 1px solid rgba(255, 255, 255, 0.1);
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          color: #1c3037;
+          display: block;
+          font-weight: normal;
+          padding: 0.5em 1em;
+
+          &:hover {
+            background: rgba(0,0,0,0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          }
+
+          span {
+            padding-right: .5em;
+          }
+        }
+      }
+    }
+
+    a.extra {
+      color: #aaa;
+      margin-left: 1em;
+    }
+
+    a.extra:hover {
+      color: #000;
+    }
   }
 
-  .header h1.title a {
-    color: #a00;
+  .content {
+    margin-left: $asideWidth;
   }
 
-  .header h1.title a:hover {
-    color: #000;
-  }
-
-  .header a.extra {
-    color: #aaa;
-    margin-left: 1em;
-  }
-
-  .header a.extra:hover {
-    color: #000;
+  .content {
+    
   }
 
   .meta {
@@ -121,30 +275,44 @@ ul.posts li {
     }
   }
 
-  .footer {
+  footer {
     font-size: 80%;
     color: #666;
-    border-top: 4px solid #eee;
+    // border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
+
+    ul {
+      // @include clearfix;
+      left: 0;
+      list-style: none;
+      margin-top: 4px;
+      position: absolute;
+
+      @media only screen and (max-width: 1200px) {
+        margin: 0 auto 3em;
+        position: static;
+        width: 220px
+      }
+    }
   }
 
-  .footer .contact {
+  footer .contact {
     float: left;
     margin-right: 3em;
   }
 
-  .footer .contact a {
+  footer .contact a {
     color: #8085C1;
   }
 
-  .footer .rss {
+  footer .rss {
     margin-top: 1.1em;
     margin-right: -.2em;
     float: right;
   }
 
-  .footer .rss img {
+  footer .rss img {
     border: 0;
   }
 }

@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/mixins.css">
         <link rel="stylesheet" href="/css/main.css">
 
         <!-- Typekit -->
@@ -21,28 +22,70 @@
 
         <div class="container">
           <div class="site">
-            <div class="header">
+            <aside>
+              <a href="/"><img src="{{ site.url }}/assets/tito_redux.svg" /></a>
               <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            </div>
+              <p>thoughts from</p>
+              <ul class="team">
+                <li>
+                  <a href="http://twitter.com/paulca">
+                    <img src="{{ site.url }}/assets/paulca.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://twitter.com/drbparsons">
+                    <img src="{{ site.url }}/assets/drbparsons.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://twitter.com/kilmc">
+                    <img src="{{ site.url }}/assets/kilmc.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://github.com/cillian">
+                    <img src="{{ site.url }}/assets/cillian.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://twitter.com/paddy">
+                    <img src="{{ site.url }}/assets/paddy.png" />
+                  </a>
+                </li>
+              </ul>
 
-                {{ content }}
+              <ul class="posts">
+                {% for post in site.posts %}
+                  <li>
+                    <a href="{{ post.url }}">
+                      <span>{{ post.date | date_to_string }}</span> {{ post.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
+              <footer>
+                
+<!--                 <div class="contact">
+                  <p>
+                    Your Name<br />
+                    What You Are<br />
+                    your@email.com
+                  </p>
+                </div>
+                <div class="contact">
+                  <p>
+                    <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
+                    <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
+                  </p>
+                </div> -->
+              </footer>
+            </aside>
+
+            <div class="content">
+              {{ content }}
+            </div><!-- /content -->
+          </div><!-- /site -->
         </div> <!-- /container -->
 
     </body>
