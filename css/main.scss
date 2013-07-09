@@ -84,6 +84,7 @@ ul.posts {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
+    word-spacing: -3px;
   }
 }
 
@@ -137,7 +138,13 @@ ul.posts li {
       max-width: 100%;
       opacity: .7;
       position: relative;
+      // -webkit-transition: scale 5s ease-in-out;
       width: 10em;
+    }
+
+    > a:hover > img {
+      // -webkit-transition: scale 5s ease-in-out;
+      // -webkit-transform: rotate(-1deg) scale(1.05);
     }
 
     h1.title {
@@ -148,18 +155,16 @@ ul.posts li {
 
      a {
         color: #1c3037;
-      }
-
-     a:hover {
-        color: #000;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.1);
       }
     }
 
     > p {
       font-family: georgia, serif;
       font-style: italic;
-      margin: .5em 0;
+      margin: .5em 0 .9em;
       text-align: center;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.1);
     }
 
     ul.team {
@@ -210,10 +215,11 @@ ul.posts li {
         a {
           border-top: 1px solid rgba(255, 255, 255, 0.1);
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-          color: #1c3037;
+          color: #fff;
           display: block;
           font-weight: normal;
           padding: 0.5em 1em;
+          text-shadow: 0 -1px 1px rgba(0,0,0,0.7);
 
           &:hover {
             background: rgba(0,0,0,0.1);
@@ -223,6 +229,7 @@ ul.posts li {
 
           span {
             padding-right: .5em;
+            text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
           }
         }
       }
@@ -239,11 +246,9 @@ ul.posts li {
   }
 
   .content {
+    border: 2em solid rgba(50, 93, 122, 0.05);
+    min-height: 100%;
     margin-left: $asideWidth;
-  }
-
-  .content {
-    
   }
 
   .meta {
@@ -254,8 +259,10 @@ ul.posts li {
       content: " •";
     }
 
-    &:nth-child(6):after {
-      content: "";
+    &.categories {
+      &:after {
+        content: "";
+      }
     }
   }
 
@@ -263,15 +270,13 @@ ul.posts li {
     list-style-type: none;
 
     .category {
-      display: inline;
-
-      &:after {
-        content: ", ";
-      }
-
-      &:last-child:after {
-        content: "";
-      }
+      background: #aaa;
+      border-radius: 10px;
+      color: #fff;
+      display: inline-block;
+      font-size: .65em;
+      line-height: 1.5;
+      padding: 0 5px 1px 5px;
     }
   }
 
