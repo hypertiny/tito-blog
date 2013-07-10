@@ -55,10 +55,13 @@
               </ul>
 
               <ul class="tags">
-                {% for tag in site.tags %}
+                {% for tag in site.sorted_tags %}
                   <li>
                     <a href="/tag/{{tag[0]}}">
-                      {{tag[0] | capitalize}}
+                      {{tag | first | capitalize}}
+                      <span class="count">
+                        {{tag | last | size}}
+                      </span>
                     </a>
                   </li>
                 {% endfor %}
