@@ -124,10 +124,10 @@ ul.posts li {
     padding: 2em 0;
     position: fixed;
     top: 0;
-    width: $asideWidth;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.1);
+    width: 350px;
 
     a {
-      font-weight: bold;
       text-decoration: none;
     }
 
@@ -248,7 +248,7 @@ ul.posts li {
   .content {
     border: 2em solid rgba(50, 93, 122, 0.05);
     min-height: 100%;
-    margin-left: $asideWidth;
+    margin-left: 350px;
   }
 
   .meta {
@@ -281,34 +281,43 @@ ul.posts li {
   }
 
   footer {
+    bottom: 0;
     font-size: 80%;
-    color: #666;
-    // border-top: 4px solid #eee;
-    margin-top: 2em;
     overflow: hidden;
+    padding: 1em;
+    position: absolute;
+    width: 100%;
 
     ul {
-      // @include clearfix;
-      left: 0;
       list-style: none;
       margin-top: 4px;
-      position: absolute;
 
       @media only screen and (max-width: 1200px) {
-        margin: 0 auto 3em;
-        position: static;
-        width: 220px
+        // margin: 0 auto 3em;
+        // position: static;
+        // width: 220px
+      }
+
+      li {
+        color: #fff;
+        display: inline-block;
+        padding: 0 .5em;
+        text-shadow: 0 -1px 1px rgba(0,0,0,0.7);
       }
     }
   }
 
   footer .contact {
-    float: left;
-    margin-right: 3em;
+    text-align: center;
+
+    &:first-child {
+      font-weight: bold;
+    }
   }
 
   footer .contact a {
-    color: #8085C1;
+    color: #fff;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.7);
   }
 
   footer .rss {
