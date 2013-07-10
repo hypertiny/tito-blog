@@ -1,19 +1,19 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">by {{ page.author }}</p>
-<p class="meta">{{ page.date | date_to_string }}</p>
-<p class="meta">{{ page.readingtime }} minutes</p>
-
-<ul class="meta categories">
-  {% for tag in page.tags %}
-    <li class="category">{{ tag }}</li>
-  {% endfor %}
-</ul>
-
 <div class="post">
-  {{ content }}
-</div>
+  <h2>{{ page.title }}</h2>
+  <p class="meta">by {{ page.author }}</p>
+  <p class="meta">{{ page.date | date_to_string }}</p>
+  <p class="meta">{{ page.readingtime }} minutes</p>
 
-<p>Want to comment? You can find us on Twitter: <a href="http://twitter.com/usetito">@useTito</a></p>
+  <ul class="meta categories">
+    {% for tag in page.tags %}
+      <li class="category">{{ tag }}</li>
+    {% endfor %}
+  </ul>
+
+  {{ content }}
+
+  <footer>Want to comment? You can find us <a href="http://twitter.com/usetito">on Twitter</a> or <a href="mailto:support@tito.io">drop us an email</a>.</footer>
+</div>
