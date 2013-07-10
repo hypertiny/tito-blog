@@ -54,6 +54,16 @@
                 </li>
               </ul>
 
+              <ul class="tags">
+                {% for tag in site.tags %}
+                  <li>
+                    <a href="/tag/{{tag[0]}}">
+                      {{tag[0] | capitalize}}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+
               <ul class="posts">
                 {% for post in site.posts %}
                   <li>

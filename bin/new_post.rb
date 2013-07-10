@@ -2,9 +2,10 @@
 
 require 'date'
 require 'optparse'
+require 'highline/import'
 
 options = {
-  :title => 'New Post',
+  :title => nil,
   :date => Date.today.strftime("%Y-%m-%d"),
   :author => ENV['USER']
 }
@@ -23,6 +24,10 @@ OptionParser.new do |opts|
     options[:user] = user
   end
 end.parse!
+
+if options[:title].to_s.strip == ''
+  options[:title] = ask("Title: ") { |q| q.echo = true }
+end
 
 filename = "#{options[:date]}-#{options[:title].downcase.gsub(' ', '-')}.markdown"
 path = "_posts/#{filename}"

@@ -4,7 +4,7 @@ title:  "An eCommerce Refactor: Cleaning up a Common Pattern in a Rails eCommerc
 date:   2012-10-18
 author: Paul Campbell
 readingtime: 6
-tags:   tag1 tag2
+tags: [code]
 ---
 
 “We can’t add any more features”, I said to Cillian. We had reached that point when building a web app using Rails that if we added another line to that controller, I couldn’t help but feel the whole thing would come crashing down, like placing the last block in a game of Jenga.

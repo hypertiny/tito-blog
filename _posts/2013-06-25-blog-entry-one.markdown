@@ -4,7 +4,7 @@ title:  Using Twitter's API to sort friends / followers alphabetically
 date:   2009-03-24
 author: Paul Campbell
 readingtime: 3
-tags:   code test
+tags: [general]
 ---
 
 One of the reasons I set up this tumble-loggy blog, rather than stick with a regular blog, was so that I could share little snippets of code every so often, related to the stuff I was working on.

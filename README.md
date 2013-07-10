@@ -1,3 +1,7 @@
+Adding a post:
+
+
+
 Code Sample:
 
 {% highlight ruby linenos %}
