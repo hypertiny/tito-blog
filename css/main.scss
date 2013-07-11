@@ -63,8 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #226fac; }
-a:hover   { color: #1d6197; }
+a         { color: #226fac; text-decoration:none;}
+a:hover   { color: #1d6197; text-decoration:underline;}
 a:visited { color: #226fac; }
 
 table {
@@ -110,12 +110,20 @@ ul.posts li {
   top: 0;
   width: 100%;
 
-  aside, .content, footer {
-    @include box-sizing(border-box);
-    padding: 2em;
+  @media only screen and (max-width: 950px) {
+    position: static;
   }
 
-  aside {
+  header, .content, footer {
+    @include box-sizing(border-box);
+    padding: 2em;
+
+    @media only screen and (max-width: 950px) {
+      padding: 1em;
+    }
+  }
+
+  header {
     background: #1e5c7f;
     bottom: 0;
     color: #1c3037;
@@ -126,6 +134,12 @@ ul.posts li {
     top: 0;
     text-shadow: 0 1px 0 rgba(255,255,255,0.1);
     width: 350px;
+
+    @media only screen and (max-width: 950px) {
+      padding-bottom: 0;
+      position: static;
+      width: 100%;
+    }
 
     a {
       text-decoration: none;
@@ -162,7 +176,7 @@ ul.posts li {
     > p {
       font-family: georgia, serif;
       font-style: italic;
-      margin: .5em 0 .9em;
+      margin: .7em 0 .9em;
       text-align: center;
       text-shadow: 0 1px 0 rgba(255,255,255,0.1);
     }
@@ -228,8 +242,10 @@ ul.posts li {
           }
 
           span {
+            color: #1c3037;
+            float: right;
             padding-right: .5em;
-            text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
+            text-shadow: 0 1px 0 rgba(255,255,255,0.1);
           }
         }
       }
@@ -249,6 +265,12 @@ ul.posts li {
     border: 2em solid rgba(50, 93, 122, 0.05);
     min-height: 100%;
     margin-left: 350px;
+
+    @media only screen and (max-width: 950px) {
+      border-width: .5em;
+      margin-left: 0;
+      // min-height: 0;
+    }
   }
 
   .meta {
@@ -280,17 +302,24 @@ ul.posts li {
     }
   }
 
-  aside footer {
+  header aside {
+    background: #065371;
+    border-top: 1px solid rgba(0,0,0,.1);
     bottom: 0;
+    @include box-sizing(border-box);
     font-size: 80%;
     overflow: hidden;
     padding: 1em;
     position: absolute;
     width: 100%;
 
+    @media only screen and (max-width: 950px) {
+      position: static;
+    }
+
     ul {
       list-style: none;
-      margin-top: 4px;
+      margin-bottom: 1em;
 
       @media only screen and (max-width: 1200px) {
         // margin: 0 auto 3em;
@@ -307,7 +336,7 @@ ul.posts li {
     }
   }
 
-  footer .contact {
+  aside .contact {
     text-align: center;
 
     &:first-child {
@@ -315,7 +344,7 @@ ul.posts li {
     }
   }
 
-  footer .contact a {
+  aside .contact a {
     color: #fff;
     text-shadow: 0 -1px 1px rgba(0,0,0,0.7);
   }
