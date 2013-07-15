@@ -160,34 +160,11 @@ ul.posts li {
 
 /*****************************************************************************/
 /*
-/* Site
+/* Sidebar
 /*
 /*****************************************************************************/
 
 .site {
-  bottom: 0;
-  font-size: 115%;
-  left: 0;
-  line-height: 1.5em;
-  position: absolute;
-  right: 0;
-  text-align: justify;
-  top: 0;
-  width: 100%;
-
-  @media only screen and (max-width: 700px) {
-    position: static;
-  }
-
-  header, footer {
-    @include box-sizing(border-box);
-    padding: 2em;
-
-    @media only screen and (max-width: 700px) {
-      padding: 1em;
-    }
-  }
-
   header {
     background: #1e5c7f;
     bottom: 0;
@@ -220,7 +197,7 @@ ul.posts li {
       // -webkit-transition: scale 5s ease-in-out;
       width: 10em;
 
-      @media only screen and (max-height: 700px) {
+      @media only screen and (max-height: 720px) {
         width: 5em;
       }
     }
@@ -257,6 +234,10 @@ ul.posts li {
       margin: .7em 0 .9em;
       text-align: center;
       text-shadow: 0 1px 0 rgba(255,255,255,0.1);
+
+      @media only screen and (max-height: 640px) {
+        display: none;
+      }
     }
 
     ul.team {
@@ -270,6 +251,10 @@ ul.posts li {
       li {
         display: inline-block;
         margin-left: 5px;
+
+        @media only screen and (max-height: 640px) {
+          display: none;
+        }
 
         &:first-child {
           margin: 0;
@@ -298,6 +283,7 @@ ul.posts li {
     ul.tags {
       border-top: 1px solid rgba(0, 0, 0, 0.1);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      list-style-type: none;
 
       li {
         line-height: 1.5;
@@ -340,18 +326,6 @@ ul.posts li {
     }
   }
 
-  .content {
-    border: 2em solid rgba(50, 93, 122, 0.05);
-    min-height: 100%;
-    margin-left: 350px;
-
-    @media only screen and (max-width: 700px) {
-      border-width: .5em;
-      margin-left: 0;
-      // min-height: 0;
-    }
-  }
-
   header aside {
     background: #065371;
     border-top: 1px solid rgba(0,0,0,.1);
@@ -368,7 +342,7 @@ ul.posts li {
       position: static;
     }
 
-    @media only screen and (max-height: 700px) {
+    @media only screen and (max-height: 720px) {
       padding: 0 1em;
     }
 
@@ -402,6 +376,50 @@ ul.posts li {
   aside .contact a {
     color: #fff;
     text-shadow: 0 -1px 1px rgba(0,0,0,0.7);
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  bottom: 0;
+  font-size: 115%;
+  left: 0;
+  line-height: 1.5em;
+  position: absolute;
+  right: 0;
+  text-align: justify;
+  top: 0;
+  width: 100%;
+
+  @media only screen and (max-width: 700px) {
+    position: static;
+  }
+
+  header, footer {
+    // @include box-sizing(border-box);
+    // padding: 2em;
+
+    @media only screen and (max-width: 700px) {
+      padding: 1em;
+    }
+  }
+
+  .content {
+    border: 2em solid rgba(50, 93, 122, 0.05);
+    @include box-sizing(border-box);
+    min-height: 100%;
+    margin-left: 350px;
+
+    @media only screen and (max-width: 700px) {
+      border-width: .5em;
+      margin-left: 0;
+      // min-height: 0;
+    }
   }
 
   footer .rss {
