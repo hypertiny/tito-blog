@@ -19,3 +19,10 @@ We're at the tip of a public release, and this is the first step. Tito has come 
 
 Simple as it was, the Funconf sale went well, and Funconf went on to generate [its own kind of mythology](http://freelancing-gods.com/posts/funconf). After a few cautious iterations, the first event to make the leap of faith to use Tito for a real event was one that I had the pleasure to attend and speak at: [Northern Lights in Aberdeen](http://northern-lights.herokuapp.com/).
 
+Shortly after that first successful event, [Horace Dediu](http://twitter.com/hdediu) got in touch, having been inspired at Funconf to host an event of his own. [Asymconf](http://www.asymconf.com) was the result, and became the first event to use our hosted event page.
+
+A long line of top tier conferences have followed since then: [Nodeconf](http://nodeconf.com), [JSConf](http://jsconf.com), [New Adventures](newadventuresconf.com), [Brooklyn Beta](https://brooklynbeta.org/), [Greenville Grok](http://www.theironyard.com/events/grok), [Nordic Ruby](http://www.nordicruby.org/), [The Realtime Conference](http://krtconf.com/) ... and recently the [Dublin Web Summit](http://www.websummit.net/).
+
+We've made new relationships, new customers, new friends along the way, and we've worked hard to respond to feedback and ensure that Tito meets our desires in terms of user experience, polish and craft, as well as our customers' needs in terms of features that are important to them. We've been busy rolling out features, and we have a few more that we're working on that we can't wait to ship. When we do, we'll write about it here.
+
+I hope you can [join us](https://tito.io/users/sign_up) on the journey.
