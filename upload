@@ -1,1 +1,1 @@
-s3cmd sync _site/* s3://tito-blog -P
+s3cmd sync _site/* s3://blog.tito.io -P
