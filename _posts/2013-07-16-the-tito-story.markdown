@@ -3,8 +3,9 @@ layout: post
 title:  The Tito Story
 date:   2013-07-16
 author: Paul Campbell
+author-img: paulca
 readingtime: 3
-tags:   [release]
+tags:   [general]
 ---
 
 Since we're at the tip of a public release, it's about time that we started talking a bit more publically about what we're up to. This blog is the first step. Tito has come a long way since the first line of code, written on a Ryanair flight in April 2011.
