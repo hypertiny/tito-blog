@@ -3,8 +3,9 @@ layout: post
 title:  "An eCommerce Refactor: Cleaning up a Common Pattern in a Rails eCommerce App"
 date:   2012-10-18
 author: Paul Campbell
+author-img: paulca
 readingtime: 6
-tags: [code, general, release]
+tags: [general, new features]
 ---
 
 “We can’t add any more features”, I said to Cillian. We had reached that point when building a web app using Rails that if we added another line to that controller, I couldn’t help but feel the whole thing would come crashing down, like placing the last block in a game of Jenga.
