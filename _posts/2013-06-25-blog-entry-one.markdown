@@ -9,6 +9,8 @@ tags: [general]
 
 One of the reasons I set up this tumble-loggy blog, rather than stick with a regular blog, was so that I could share little snippets of code every so often, related to the stuff I was working on.
 
+<!--more-->
+
 That's why I was delighted when [Jon Crawford](http://joncrawford.com/) ([NewMonarch](http://twitter.com/newmonarch)) on Twitter asked me this:
 
 > I need to grab a Twitter user’s followers on the fly. As you probably know, the friends list isn’t returned in alphabetical order. Instead it’s returned in the order of which you started following the user, 100 results as a time. I’d prefer that the results were returned in alphabetical order by screen_name.

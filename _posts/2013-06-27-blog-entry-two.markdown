@@ -9,6 +9,8 @@ tags: [code, general, release]
 
 “We can’t add any more features”, I said to Cillian. We had reached that point when building a web app using Rails that if we added another line to that controller, I couldn’t help but feel the whole thing would come crashing down, like placing the last block in a game of Jenga.
 
+<!--more-->
+
 “We need to refactor.”
 
 The code in question was extremely common code: handling customer payments.
