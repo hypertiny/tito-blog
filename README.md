@@ -1,3 +1,17 @@
+## Deploying
+
+Install `s3cmd`
+
+    brew install s3cmd
+
+Configure s3cmd
+
+    s3cmd --configure
+
+Run the upload script:
+
+    ./upload
+
 Adding a post:
 
 
