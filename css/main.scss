@@ -80,6 +80,10 @@ ul.posts.list {
     margin: 2em 10% 1em 10%;
   }
 
+  @media only screen and (max-width: 700px) {
+    margin: 2em 5% 1em 5%;
+  }
+
   &:hover a {
     opacity: .2;
     -webkit-transition: opacity .1s linear;
@@ -93,6 +97,10 @@ ul.posts.list {
     display: block;
     margin: 0;
     padding-bottom: 2em;
+
+    @media only screen and (max-width: 700px) {
+      text-align: left;
+    }
 
     &:hover {
       opacity: 1;
@@ -165,14 +173,14 @@ ul.posts.list {
         display: block;
         font-weight: bold;
         left: 4px;
-        margin-bottom: -18px;
+        margin: 0 auto -18px;
         opacity: 0;
         position: relative;
         text-align: center;
         text-shadow: 0 1px 0 rgba(255,255,255,0.1);
         text-transform: uppercase;
         top: -30px;
-        width: 100%;
+        width: 80%;
 
         @media only screen and (max-height: 720px) {
           left: 12px;
@@ -398,9 +406,8 @@ ul.posts.list {
     margin-left: 350px;
 
     @media only screen and (max-width: 700px) {
-      border-width: .5em;
+      border: .5em solid rgba(50, 93, 122, 0.2);
       margin-left: 0;
-      // min-height: 0;
     }
   }
 
@@ -428,6 +435,10 @@ ul.posts.list {
     @media only screen and (max-width: 1330px) {
       margin: 2em 10% 1em 10%;
     }
+
+    @media only screen and (max-width: 700px) {
+      margin: 2em 5% 1em 5%;
+    }
   }
 }
 
@@ -444,6 +455,10 @@ ul.posts.list {
     @media only screen and (max-width: 1330px) {
       margin: 2em 10% 1em 10%;
     }
+
+    @media only screen and (max-width: 700px) {
+      margin: 2em 5% 1em 5%;
+    }
   }
 }
 
@@ -459,6 +474,10 @@ ul.posts.list {
 
   @media only screen and (max-width: 1330px) {
     margin: 2em 10% 1em 10%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    margin: 2em 5% 1em 5%;
   }
 
   .meta {
