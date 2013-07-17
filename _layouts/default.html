@@ -20,73 +20,87 @@
     </head>
     <body>
 
-        <div class="container">
-          <div class="site">
-            <header>
-              <a href="/#read"><img src="{{ site.url }}/assets/tito_redux.svg" /> <span>Home</span></a>
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <p>thoughts from</p>
-              <ul class="team">
+      <div class="container">
+        <div class="site">
+          <header>
+            <a href="/#read"><img src="{{ site.url }}/assets/tito_redux.svg" /> <span>Home</span></a>
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <p>thoughts from</p>
+            <ul class="team">
+              <li>
+                <a href="http://twitter.com/paulca">
+                  <img src="{{ site.url }}/assets/paulca.png" />
+                </a>
+              </li>
+              <li>
+                <a href="http://twitter.com/drbparsons">
+                  <img src="{{ site.url }}/assets/drbparsons.png" />
+                </a>
+              </li>
+              <li>
+                <a href="http://twitter.com/kilmc">
+                  <img src="{{ site.url }}/assets/kilmc.png" />
+                </a>
+              </li>
+              <li>
+                <a href="http://github.com/cillian">
+                  <img src="{{ site.url }}/assets/cillian.png" />
+                </a>
+              </li>
+              <li>
+                <a href="http://twitter.com/paddy">
+                  <img src="{{ site.url }}/assets/paddy.png" />
+                </a>
+              </li>
+            </ul>
+            
+            <h2>Categories</h2>
+            <ul class="tags">
+              {% for tag in site.sorted_tags %}
                 <li>
-                  <a href="http://twitter.com/paulca">
-                    <img src="{{ site.url }}/assets/paulca.png" />
+                  <a href="/tag/{{tag[0]}}">
+                    {{tag | first | capitalize}}
+                    <span class="count">
+                      {{tag | last | size}}
+                    </span>
                   </a>
                 </li>
-                <li>
-                  <a href="http://twitter.com/drbparsons">
-                    <img src="{{ site.url }}/assets/drbparsons.png" />
-                  </a>
-                </li>
-                <li>
-                  <a href="http://twitter.com/kilmc">
-                    <img src="{{ site.url }}/assets/kilmc.png" />
-                  </a>
-                </li>
-                <li>
-                  <a href="http://github.com/cillian">
-                    <img src="{{ site.url }}/assets/cillian.png" />
-                  </a>
-                </li>
-                <li>
-                  <a href="http://twitter.com/paddy">
-                    <img src="{{ site.url }}/assets/paddy.png" />
-                  </a>
-                </li>
-              </ul>
-              
-              <h2>Categories</h2>
-              <ul class="tags">
-                {% for tag in site.sorted_tags %}
-                  <li>
-                    <a href="/tag/{{tag[0]}}">
-                      {{tag | first | capitalize}}
-                      <span class="count">
-                        {{tag | last | size}}
-                      </span>
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
+              {% endfor %}
+            </ul>
 
-              <aside>
-                <div class="contact">
-                  <p>Tito. Simple &amp; powerful event software.</p>
-                </div>
-                <div class="contact">
-                  <ul>
-                    <li><a href="http://tito.io">tito.io</a></li>
-                    <li><a href="mailto:support@tito.io">support@tito.io</a></li>
-                    <li><a href="http://twitter.com/usetito">@useTito</a></li>
-                  </ul>
-                </div>
-              </aside>
-            </header>
+            <aside>
+              <div class="contact">
+                <p>Tito. Simple &amp; powerful event software.</p>
+              </div>
+              <div class="contact">
+                <ul>
+                  <li><a href="http://tito.io">tito.io</a></li>
+                  <li><a href="mailto:support@tito.io">support@tito.io</a></li>
+                  <li><a href="http://twitter.com/usetito">@useTito</a></li>
+                </ul>
+              </div>
+            </aside>
+          </header>
 
-            <div id="read" class="content">
-              {{ content }}
-            </div><!-- /content -->
-          </div><!-- /site -->
-        </div> <!-- /container -->
-
+          <div id="read" class="content">
+            {{ content }}
+          </div><!-- /content -->
+        </div><!-- /site -->
+      </div> <!-- /container -->
+      
+      <!-- Gauges -->
+      <script type="text/javascript">
+        var _gauges = _gauges || [];
+        (function() {
+          var t  = document.createElement('script');
+          t.type  = 'text/javascript';
+          t.async = true;
+          t.id    = 'gauges-tracker';
+          t.setAttribute('data-site-id', '51e6a051f5a1f5279500009e');
+          t.src = '//secure.gaug.es/track.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(t, s);
+        })();
+      </script>
     </body>
 </html>
