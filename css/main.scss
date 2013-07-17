@@ -183,14 +183,14 @@ ul.posts.list {
 
     > a:hover {
       > img {
-        -webkit-transition: -webkit-transform .1s linear;
+        -webkit-transition: -webkit-transform .2s linear;
         -webkit-transform: scale(.8);
         -webkit-transform-origin: top center;
       }
 
       > span {
         opacity: 1;
-        -webkit-transition: opacity .1s linear .15s;
+        -webkit-transition: opacity .2s linear .25s;
       }
     }
 
