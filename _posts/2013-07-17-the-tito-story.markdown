@@ -8,7 +8,7 @@ readingtime: 3
 tags:   [general]
 ---
 
-Since we're at the tip of a public release, it's about time that we started talking a bit more publically about what we're up to. This blog is the first step. Tito has come a long way since the first line of code, written on a Ryanair flight in April 2011.
+Since we're at the tip of a public release, it's about time that we started talking a bit more publically about what we're up to. This blog is the first step. Tito has come a long way since the first line of code, written by me on a Ryanair flight back in April 2011.
 
 <!--more-->
 
@@ -20,7 +20,13 @@ Shortly after that first successful event, [Horace Dediu](http://twitter.com/hde
 
 A long line of top tier conferences have followed since then: [Nodeconf](http://nodeconf.com), [JSConf](http://jsconf.com), [New Adventures](http://newadventuresconf.com), [Brooklyn Beta](https://brooklynbeta.org/), [Greenville Grok](http://www.theironyard.com/events/grok), [Nordic Ruby](http://www.nordicruby.org/), [The Realtime Conference](http://krtconf.com/) ... and recently the [Dublin Web Summit](http://www.websummit.net/).
 
-We've made new relationships, new customers, new friends along the way, and we've worked hard to respond to feedback and ensure that Tito meets our desires in terms of user experience, polish and craft, as well as our customers' needs in terms of features that are important to them. We've been busy rolling out features, and we have a few more that we're working on that we can't wait to ship. When we do, we'll write about it here.
+Even though we've not yet launched publically, we've still racked up some pretty good stats. We've sold over 12k tickets accross 150 events worldwide, amassing ticket sales of over US$2m, and €1.5m. All of this has been bootstrapped by our own sweat, heart and patience. It's a good start. It's been a good beta.
+
+We've made new relationships, new customers, new friends along the way, and we've worked hard to respond to feedback and ensure that Tito meets our desires in terms of user experience, polish and craft, as well as our customers' needs in terms of features that are important to them.
+
+We moved from our living rooms to be part of the first batch in [Dogpatch Labs Europe](http://dogpatchlabs.com/), and then moved to our current space: the office where [pix.ie](pix.ie) was born.
+
+We've been busy rolling out features, and we have a few more that we're working on that we can't wait to ship. When we do, we'll write about them here.
 
 Huge thanks to [everyone who has contributed so far](http://tito.io/humans.txt).
 
