@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Tito Story
+title:  First Post! The Tito Story
 date:   2013-07-17
 author: Paul Campbell
 author-img: paulca
