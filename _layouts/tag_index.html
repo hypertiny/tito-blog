@@ -3,14 +3,13 @@ layout: default
 ---
 <div class="tag-page">
   <h1 class="post_title">{{page.title}}</h1>
-  <ul class="posts">
+  <ul class="posts list">
     {% for post in site.posts %}
       {% for tag in post.tags %}
         {% if tag == page.tag %}
           <li>
             <a href='{{post.url}}'>
-              <span>{{post.date | date_to_string}}</span> 
-              &raquo; {{post.title}}
+              <span>{{post.date | date_to_string}}</span> &raquo; {{post.title}}
               {% if post.content contains '<!--more-->' %}
                   <p>{{ post.content | split:'<!--more-->' | first }}</p>
               {% else %}

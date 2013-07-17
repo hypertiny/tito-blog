@@ -4,7 +4,7 @@
 /*
 /*****************************************************************************/
 
-$asideWidth: 25%;
+
 
 /*****************************************************************************/
 /*
@@ -72,102 +72,54 @@ table {
   font: 100%;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-
-#home {
-  h1 {
-    margin: 2em 20% 1em 20%;
-
-    @media only screen and (max-width: 1330px) {
-      margin: 2em 10% 1em 10%;
-    }
-  }
-
-  .posts a {
-    display: block;
-    margin: 0;
-
-    &:hover {
-      opacity: 1;
-      text-decoration: none;
-      // -webkit-transition: opacity 1s linear;
-    }
-
-    p {
-      color: #757575;
-      font-size: .8em;
-      line-height: 2;
-      margin: 1em 0 0 0;
-    }
-  }
-}
-
-ul.posts {
+ul.posts.list {
   list-style-type: none;
-  margin: 0 20% 2em 20%;
+  margin: 0 15% 2em 15%;
 
   @media only screen and (max-width: 1330px) {
     margin: 2em 10% 1em 10%;
   }
 
-  span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-    word-spacing: -3px;
-  }
-
-  a {
-    display: block;
-    opacity: 1;
-    // -webkit-transition: opacity .5s linear;
+  @media only screen and (max-width: 700px) {
+    margin: 2em 5% 1em 5%;
   }
 
   &:hover a {
     opacity: .2;
     -webkit-transition: opacity .1s linear;
   }
-}
 
-ul.posts li {
-  line-height: 1.25;
-  margin-bottom: 2em;
-}
-
-/*****************************************************************************/
-/*
-/* Tag Page
-/*
-/*****************************************************************************/
-
-.tag-page {
-  h1 {
-    margin: 2em 20% 1em 20%;
-
-    @media only screen and (max-width: 1330px) {
-      margin: 2em 10% 1em 10%;
-    }
+  li {
+    line-height: 1.25;
   }
 
   a {
+    display: block;
+    margin: 0;
+    padding-bottom: 2em;
+
+    @media only screen and (max-width: 700px) {
+      text-align: left;
+    }
+
     &:hover {
+      opacity: 1;
       text-decoration: none;
     }
-  }
 
-  ul.posts:hover a {
-    opacity: 1;
-  }
+    span {
+      color: #aaa;
+      font-family: Monaco, "Courier New", monospace;
+      font-size: 80%;
+      word-spacing: -3px;
+    }
 
-  p {
-    color: #757575;
-    font-size: .8em;
-    line-height: 2;
-    margin: 1em 0 0 0;
+    p {
+      color: #757575;
+      font-size: .8em;
+      line-height: 2;
+      margin: 5px 0 0 0;
+    }
   }
 }
 
@@ -201,24 +153,53 @@ ul.posts li {
       text-decoration: none;
     }
 
-    > a > img {
-      display: block;
-      left: 19px;
-      margin: 0 auto;
-      max-width: 100%;
-      opacity: .7;
-      position: relative;
-      // -webkit-transition: scale 5s ease-in-out;
-      width: 10em;
+    > a {
+      > img {
+        display: block;
+        left: 19px;
+        margin: 0 auto;
+        max-width: 100%;
+        opacity: .7;
+        position: relative;
+        width: 10em;
 
-      @media only screen and (max-height: 720px) {
-        width: 5em;
+        @media only screen and (max-height: 720px) {
+          width: 5em;
+        }
+      }
+
+      > span {
+        color: #1c3037;
+        display: block;
+        font-weight: bold;
+        left: 4px;
+        margin: 0 auto -18px;
+        opacity: 0;
+        position: relative;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.1);
+        text-transform: uppercase;
+        top: -30px;
+        width: 80%;
+
+        @media only screen and (max-height: 720px) {
+          left: 12px;
+          top: -14px;
+        }
       }
     }
 
-    > a:hover > img {
-      // -webkit-transition: scale 5s ease-in-out;
-      // -webkit-transform: rotate(-1deg) scale(1.05);
+    > a:hover {
+      > img {
+        -webkit-transition: -webkit-transform .2s linear;
+        -webkit-transform: scale(.8);
+        -webkit-transform-origin: top center;
+      }
+
+      > span {
+        opacity: 1;
+        -webkit-transition: opacity .2s linear .25s;
+      }
     }
 
     h1.title {
@@ -364,12 +345,6 @@ ul.posts li {
       list-style: none;
       margin-bottom: 1em;
 
-      @media only screen and (max-width: 1200px) {
-        // margin: 0 auto 3em;
-        // position: static;
-        // width: 220px
-      }
-
       li {
         color: #fff;
         display: inline-block;
@@ -390,6 +365,10 @@ ul.posts li {
   aside .contact a {
     color: #fff;
     text-shadow: 0 -1px 1px rgba(0,0,0,0.7);
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -427,9 +406,8 @@ ul.posts li {
     margin-left: 350px;
 
     @media only screen and (max-width: 700px) {
-      border-width: .5em;
+      border: .5em solid rgba(50, 93, 122, 0.2);
       margin-left: 0;
-      // min-height: 0;
     }
   }
 
@@ -446,25 +424,66 @@ ul.posts li {
 
 /*****************************************************************************/
 /*
-/* Posts
+/* Home
+/*
+/*****************************************************************************/
+
+#home {
+  h1 {
+    margin: 2em 15% 1em 15%;
+
+    @media only screen and (max-width: 1330px) {
+      margin: 2em 10% 1em 10%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      margin: 2em 5% 1em 5%;
+    }
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Tag Page
+/*
+/*****************************************************************************/
+
+.tag-page {
+  h1 {
+    margin: 2em 15% 1em 15%;
+
+    @media only screen and (max-width: 1330px) {
+      margin: 2em 10% 1em 10%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      margin: 2em 5% 1em 5%;
+    }
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Individual Posts
 /*
 /*****************************************************************************/
 
 /* standard */
 .post {
-  margin: 2em 20% 0;
+  margin: 2em 15% 0;
 
   @media only screen and (max-width: 1330px) {
     margin: 2em 10% 1em 10%;
   }
 
+  @media only screen and (max-width: 700px) {
+    margin: 2em 5% 1em 5%;
+    text-align: left;
+  }
+
   .meta {
     color: #aaa;
     display: inline;
-
-    &:after {
-      content: " •";
-    }
 
     &.author {
       img {
@@ -479,13 +498,15 @@ ul.posts li {
           display: none;
         }
       }
-    }
 
-    &.categories {
       &:after {
-        content: "";
+        content: " •";
       }
     }
+  }
+
+  ul.meta {
+    display: block;
   }
 
   .categories {
@@ -553,6 +574,6 @@ ul.posts li {
     color: #aaa;
     font-size: 80%;
     font-style: italic;
-    padding: 2em 0 0 0;
+    padding: 2em 0;
   }
 }
