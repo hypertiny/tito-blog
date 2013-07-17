@@ -80,6 +80,11 @@ ul.posts.list {
     margin: 2em 10% 1em 10%;
   }
 
+  &:hover a {
+    opacity: .2;
+    -webkit-transition: opacity .1s linear;
+  }
+
   li {
     line-height: 1.25;
   }
@@ -89,10 +94,9 @@ ul.posts.list {
     margin: 0;
     padding-bottom: 2em;
 
-    &:hover {      
-      opacity: .2;
+    &:hover {
+      opacity: 1;
       text-decoration: none;
-      -webkit-transition: opacity .1s linear;
     }
 
     span {
