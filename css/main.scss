@@ -4,7 +4,7 @@
 /*
 /*****************************************************************************/
 
-$asideWidth: 25%;
+
 
 /*****************************************************************************/
 /*
@@ -72,102 +72,42 @@ table {
   font: 100%;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
+ul.posts.list {
+  list-style-type: none;
+  margin: 0 15% 2em 15%;
 
-#home {
-  h1 {
-    margin: 2em 20% 1em 20%;
-
-    @media only screen and (max-width: 1330px) {
-      margin: 2em 10% 1em 10%;
-    }
+  @media only screen and (max-width: 1330px) {
+    margin: 2em 10% 1em 10%;
   }
 
-  .posts a {
+  li {
+    line-height: 1.25;
+  }
+
+  a {
     display: block;
     margin: 0;
+    padding-bottom: 2em;
 
-    &:hover {
-      opacity: 1;
+    &:hover {      
+      opacity: .2;
       text-decoration: none;
-      // -webkit-transition: opacity 1s linear;
+      -webkit-transition: opacity .1s linear;
+    }
+
+    span {
+      color: #aaa;
+      font-family: Monaco, "Courier New", monospace;
+      font-size: 80%;
+      word-spacing: -3px;
     }
 
     p {
       color: #757575;
       font-size: .8em;
       line-height: 2;
-      margin: 1em 0 0 0;
+      margin: 5px 0 0 0;
     }
-  }
-}
-
-ul.posts {
-  list-style-type: none;
-  margin: 0 20% 2em 20%;
-
-  @media only screen and (max-width: 1330px) {
-    margin: 2em 10% 1em 10%;
-  }
-
-  span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-    word-spacing: -3px;
-  }
-
-  a {
-    display: block;
-    opacity: 1;
-    // -webkit-transition: opacity .5s linear;
-  }
-
-  &:hover a {
-    opacity: .2;
-    -webkit-transition: opacity .1s linear;
-  }
-}
-
-ul.posts li {
-  line-height: 1.25;
-  margin-bottom: 2em;
-}
-
-/*****************************************************************************/
-/*
-/* Tag Page
-/*
-/*****************************************************************************/
-
-.tag-page {
-  h1 {
-    margin: 2em 20% 1em 20%;
-
-    @media only screen and (max-width: 1330px) {
-      margin: 2em 10% 1em 10%;
-    }
-  }
-
-  a {
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  ul.posts:hover a {
-    opacity: 1;
-  }
-
-  p {
-    color: #757575;
-    font-size: .8em;
-    line-height: 2;
-    margin: 1em 0 0 0;
   }
 }
 
@@ -201,24 +141,53 @@ ul.posts li {
       text-decoration: none;
     }
 
-    > a > img {
-      display: block;
-      left: 19px;
-      margin: 0 auto;
-      max-width: 100%;
-      opacity: .7;
-      position: relative;
-      // -webkit-transition: scale 5s ease-in-out;
-      width: 10em;
+    > a {
+      > img {
+        display: block;
+        left: 19px;
+        margin: 0 auto;
+        max-width: 100%;
+        opacity: .7;
+        position: relative;
+        width: 10em;
 
-      @media only screen and (max-height: 720px) {
-        width: 5em;
+        @media only screen and (max-height: 720px) {
+          width: 5em;
+        }
+      }
+
+      > span {
+        color: #1c3037;
+        display: block;
+        font-weight: bold;
+        left: 4px;
+        margin-bottom: -18px;
+        opacity: 0;
+        position: relative;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.1);
+        text-transform: uppercase;
+        top: -30px;
+        width: 100%;
+
+        @media only screen and (max-height: 720px) {
+          left: 12px;
+          top: -14px;
+        }
       }
     }
 
-    > a:hover > img {
-      // -webkit-transition: scale 5s ease-in-out;
-      // -webkit-transform: rotate(-1deg) scale(1.05);
+    > a:hover {
+      > img {
+        -webkit-transition: -webkit-transform .1s linear;
+        -webkit-transform: scale(.8);
+        -webkit-transform-origin: top center;
+      }
+
+      > span {
+        opacity: 1;
+        -webkit-transition: opacity .1s linear .15s;
+      }
     }
 
     h1.title {
@@ -364,12 +333,6 @@ ul.posts li {
       list-style: none;
       margin-bottom: 1em;
 
-      @media only screen and (max-width: 1200px) {
-        // margin: 0 auto 3em;
-        // position: static;
-        // width: 220px
-      }
-
       li {
         color: #fff;
         display: inline-block;
@@ -390,6 +353,10 @@ ul.posts li {
   aside .contact a {
     color: #fff;
     text-shadow: 0 -1px 1px rgba(0,0,0,0.7);
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -446,13 +413,45 @@ ul.posts li {
 
 /*****************************************************************************/
 /*
-/* Posts
+/* Home
+/*
+/*****************************************************************************/
+
+#home {
+  h1 {
+    margin: 2em 15% 1em 15%;
+
+    @media only screen and (max-width: 1330px) {
+      margin: 2em 10% 1em 10%;
+    }
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Tag Page
+/*
+/*****************************************************************************/
+
+.tag-page {
+  h1 {
+    margin: 2em 15% 1em 15%;
+
+    @media only screen and (max-width: 1330px) {
+      margin: 2em 10% 1em 10%;
+    }
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Individual Posts
 /*
 /*****************************************************************************/
 
 /* standard */
 .post {
-  margin: 2em 20% 0;
+  margin: 2em 15% 0;
 
   @media only screen and (max-width: 1330px) {
     margin: 2em 10% 1em 10%;
@@ -553,6 +552,6 @@ ul.posts li {
     color: #aaa;
     font-size: 80%;
     font-style: italic;
-    padding: 2em 0 0 0;
+    padding: 2em 0;
   }
 }
