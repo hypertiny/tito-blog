@@ -18,7 +18,7 @@ Simple as it was, the Funconf sale went well, and Funconf went on to generate [i
 
 Shortly after that first successful event, [Horace Dediu](http://twitter.com/hdediu) got in touch, having been inspired at Funconf to host an event of his own. [Asymconf](http://www.asymconf.com) was the result, and became the first event to use our hosted event page.
 
-A long line of top tier conferences have followed since then: [Nodeconf](http://nodeconf.com), [JSConf](http://jsconf.com), [New Adventures](newadventuresconf.com), [Brooklyn Beta](https://brooklynbeta.org/), [Greenville Grok](http://www.theironyard.com/events/grok), [Nordic Ruby](http://www.nordicruby.org/), [The Realtime Conference](http://krtconf.com/) ... and recently the [Dublin Web Summit](http://www.websummit.net/).
+A long line of top tier conferences have followed since then: [Nodeconf](http://nodeconf.com), [JSConf](http://jsconf.com), [New Adventures](http://newadventuresconf.com), [Brooklyn Beta](https://brooklynbeta.org/), [Greenville Grok](http://www.theironyard.com/events/grok), [Nordic Ruby](http://www.nordicruby.org/), [The Realtime Conference](http://krtconf.com/) ... and recently the [Dublin Web Summit](http://www.websummit.net/).
 
 We've made new relationships, new customers, new friends along the way, and we've worked hard to respond to feedback and ensure that Tito meets our desires in terms of user experience, polish and craft, as well as our customers' needs in terms of features that are important to them. We've been busy rolling out features, and we have a few more that we're working on that we can't wait to ship. When we do, we'll write about it here.
 
