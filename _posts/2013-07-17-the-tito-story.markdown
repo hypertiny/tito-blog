@@ -24,7 +24,7 @@ Even though we've not yet launched publically, we've still racked up some pretty
 
 We've made new relationships, new customers, new friends along the way, and we've worked hard to respond to feedback and ensure that Tito meets our desires in terms of user experience, polish and craft, as well as our customers' needs in terms of features that are important to them.
 
-We moved from our living rooms to be part of the first batch in [Dogpatch Labs Europe](http://dogpatchlabs.com/), and then moved to our current space: the office where [pix.ie](pix.ie) was born.
+We moved from our living rooms to be part of the first batch in [Dogpatch Labs Europe](http://dogpatchlabs.com/), and then moved to our current space: the office where [pix.ie](http://pix.ie) was born.
 
 We've been busy rolling out features, and we have a few more that we're working on that we can't wait to ship. When we do, we'll write about them here.
 
