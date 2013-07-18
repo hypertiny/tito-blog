@@ -5,7 +5,7 @@ date:   2013-07-09
 author: Kilian McMahon
 author-img: kilmc
 readingtime: 1
-tags: [features]
+tags: []
 ---
 Up until this point refunds in Tito has been a little cumbersome. Our new refunds feature makes the process a lot smoother. 
 

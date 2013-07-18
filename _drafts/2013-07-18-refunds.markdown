@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Refunds
+date:   2013-07-18
+author: Kilian McMahon
+author-img: kilmc
+tags:   [new features]
+---
+
+We're delighted to announce our first new feature here on the blog, and it's a big one…
+
+<!--more-->
+
+You can now process refunds for all payment gateways from within Tito. We know some of you have been waiting a while for this one, so thanks for your patience.
+
+We've made this feature as flexible as possible, allowing you to  fully, or partially refund an order or an individual ticket. You can also choose whether or not to void a ticket when refunding, and if so whether to put that ticket back on sale once voided.
+
+Incase you weren't aware, each payment gateway has their own refund conditions, here's a recap:
+
+- [Stripe](http://stripe.com): no time limit
+- [PayPal](http://paypal.com): within 60 days of purchase
+- [Pin](http://pin.net.au): no time limit, full refunds only
+
+As always, we'd love any feedback you might have, drop us an email at [support@tito.io](mailto:support@tito.io).
