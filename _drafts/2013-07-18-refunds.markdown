@@ -2,8 +2,8 @@
 layout: post
 title:  Refunds
 date:   2013-07-18
-author: Kilian McMahon
-author-img: kilmc
+author: Doc Parsons
+author-img: drbparsons
 tags:   [new features]
 ---
 

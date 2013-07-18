@@ -1,0 +1,14 @@
+---
+layout: post
+title:  Digest
+date:   2013-07-18
+author: Doc Parsons
+author-img: drbparsons
+tags:   [new features]
+---
+
+Inbox 3000? I think we might be able to help&hellip;
+
+<!--more-->
+
+We've added a digest email to give you a daily summary of your ticket registrations. 
