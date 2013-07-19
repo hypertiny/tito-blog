@@ -1,0 +1,20 @@
+---
+layout: post
+title:  Digest
+date:   2013-07-19
+author: Doc Parsons
+author-img: drbparsons
+tags:   [new features]
+---
+
+Inbox 3000? We might be able to help&hellip;
+
+<!--more-->
+
+We’ve added a digest email to give you a daily summary of your ticket registrations.
+
+By default, this has been switched on so if you sold any tickets today, you’ll be receiving your first digest email tomorrow.
+
+If you’d like to stop individual notifications of each ticket sale, or indeed, stop receiving emails altogether, just click on your profile in the header and modify your settings.
+
+Have yourseves a wonderful weekend.
