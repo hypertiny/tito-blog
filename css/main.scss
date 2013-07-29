@@ -539,6 +539,32 @@ ul.posts.list {
     margin-left: 1.35em;
   }
 
+  img {
+    max-width: 100%;
+
+    &.half {
+      width: 50%
+    }
+
+    &.third {
+      width: 33%
+    }
+
+    &.quarter {
+      width: 25%
+    }
+
+    &.right {
+      float: right;
+      padding: 0 0 0 20px;
+    }
+
+    &.left {
+      float: left;
+      padding: 0 20px 0 0;
+    }
+  }
+
   code {
     border: 1px solid #ddd;
     background-color: #f4f6f8;
