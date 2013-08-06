@@ -39,7 +39,7 @@ Tito was originally built to power ticket sales for the second [Funconf](http://
 
 ## Nordic Ruby
 
-As with most of the events that grace our Founding Roster, Nordic Ruby has been hailed as one of the most innovative and inspiring events for the past three years. [Nordic Ruby](http://nordicruby.org/) is the conference that originally (to me) emphasized conversations over Q&A, long, frequent breaks, and talks that went way beyond the central theme to leave attendees inspired and energised in a holistic as well as technical way. Only fitting for a Ruby conference that's been held in a Japanese spa for the past two years. 
+As with most of the events that grace our Founding Roster, Nordic Ruby has been hailed as one of the most innovative and inspiring events for the past three years. [CJ](https://twitter.com/cjse) & [Lilly](https://twitter.com/lilly) Kilhbom, along with [the team at eLabs](http://elabs.se), took the best elements of their favourite events, and combined them to make something new and exciting. [Nordic Ruby](http://nordicruby.org/) is the conference that originally (to me) emphasized conversations over Q&A, long, frequent breaks, and talks that went way beyond the central theme to leave attendees inspired and energised in a holistic as well as technical way. Only fitting for a Ruby conference that's been held in a Japanese spa for the past two years. 
 
 ## LXJS
 
