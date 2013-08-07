@@ -169,31 +169,33 @@ ul.posts.list {
       }
 
       > span {
-        color: #1c3037;
+        color: #fff;
         display: block;
+        font-size: 2em;
         font-weight: bold;
-        left: 4px;
+        left: 2px;
+        letter-spacing: 0;
         margin: 0 auto -18px;
         opacity: 0;
         position: relative;
         text-align: center;
-        text-shadow: 0 1px 0 rgba(255,255,255,0.1);
-        text-transform: uppercase;
-        top: -30px;
+        text-shadow: 0 1px 0 rgba(0,0,0,1);
+        top: -100px;
         width: 80%;
 
         @media only screen and (max-height: 720px) {
-          left: 12px;
-          top: -14px;
+          left: 11px;
+          top: -57px;
         }
       }
     }
 
     > a:hover {
       > img {
-        -webkit-transition: -webkit-transform .2s linear;
-        -webkit-transform: scale(.8);
-        -webkit-transform-origin: top center;
+        opacity: .5;
+        -webkit-transition: all .2s linear;
+        -webkit-transform: scale(.95);
+        -webkit-transform-origin: center;
       }
 
       > span {
@@ -601,5 +603,21 @@ ul.posts.list {
     font-size: 80%;
     font-style: italic;
     padding: 2em 0;
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Specific Post Classes
+/*
+/*****************************************************************************/
+
+.post {
+  img.fc-avatar {
+    border-radius: 20px;
+    float: right;
+    height: 100px;
+    margin: 1em 0 1em 2em;
+    width: 100px;
   }
 }
