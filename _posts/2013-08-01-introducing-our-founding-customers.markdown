@@ -94,12 +94,10 @@ Bocoup is a one-of-a-kind consultancy, thought-leadership based in Boston. Bocou
 <img class="fc-avatar" src="http://tito.io/assets/founders/cr.png" alt="Carter Rabasa" />
 
 There's a particular pleasure in serving [CascadiaJS](http://2013.cascadiajs.com/)'s registration needs. Founded last year by first-time event organiser [Carter Rabasa](https://twitter.com/CarterRabasa), CascadiaJS was, by all accounts, a roaring success story in the Pacific North West. After CascadiaJS, Carter wrote a wonderful blog post entitled "[Shipping a Conference](http://www.twilio.com/blog/2012/11/shipping-a-conference-cascadiajs.html)", which is a must-read for any first time event organiser.
-
 <br>
 <br>
 <br>
 <br>
-
 We've created a new [Founding Customers Page](https://tito.io/fc) as a shrine to these fine folks.
 
 And that's that! The Founding Customer programme is now closed, and this intrepid group will go down in the annals of Tito history. What's amazing about the list is that not-only does it represent a fine group of people to whom we owe a lot, but it is also a fantastic benchmark of the current state-of-the-art in technology conferences. Among the list are truly some of the most groundbreaking and well-regarded events in the world, and we're proud that they are our flagship partners, our Founding Customers.
