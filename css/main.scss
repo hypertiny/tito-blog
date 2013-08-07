@@ -603,3 +603,19 @@ ul.posts.list {
     padding: 2em 0;
   }
 }
+
+/*****************************************************************************/
+/*
+/* Specific Post Classes
+/*
+/*****************************************************************************/
+
+.post {
+  img.fc-avatar {
+    border-radius: 20px;
+    float: right;
+    height: 100px;
+    margin: 1em 0 1em 2em;
+    width: 100px;
+  }
+}
