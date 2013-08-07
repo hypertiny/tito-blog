@@ -71,7 +71,7 @@ One of the themes of Funconf that emerged over the years was "you don't have to 
 
 [Mikeal Rogers](https://twitter.com/mikeal), gatekeeper of the node.js community, is reknowned for digging deep into the heart of what the community needs, and shaping his conferences around that. [NodeConf](http://www.nodeconf.com/) has been with Tito since almost the very start, and a lot of the core functionality was shaped around the needs of various nodeconf events. I had the pleasure of attending nodeconf this year, and it was truly a magnificent, family-oriented, learning-friendly, level-raising event.
 
-## Hoger Blank, SinnerSchrader
+## Holger Blank, SinnerSchrader
 
 <img class="fc-avatar" src="http://tito.io/assets/founders/hb.jpeg" alt="Holger Blank" />
 

@@ -1,1 +1,1 @@
-jekyll build && s3cmd sync _site/* s3://blog.tito.io -P
+bundle exec jekyll build && s3cmd sync _site/* s3://blog.tito.io -P
