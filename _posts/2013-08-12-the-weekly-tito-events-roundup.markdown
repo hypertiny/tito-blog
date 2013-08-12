@@ -23,3 +23,5 @@ One of our coolest stats of late is the breadth of top-level web technology conf
 Some other notable conferences that look cool to me are [BlendConf](http://www.blendconf.com/) in Charlotte, North Carolina, [LeanConf 2013](http://www.leanconf.co.uk/) in Manchester, England and [Front-end London One-Day](https://tito.io/front-end-london/one-day), which looks like a great format for meetups wanting to level up to mini-conference status.
 
 Finally, a shout-out to [So Coded](http://socoded.com/) in Hamburg, where I'll be making my one and only speaking appearance of the year. You can also hear me talking about whisky and conferences on the first episode of [Peated.io](http://peated.io/1/) and you can hear me talking about Tito and designing conferences on [The Giant Robots Podcast](http://learn.thoughtbot.com/giantrobots/61).
+
+Have a great week!
