@@ -3,6 +3,7 @@ layout: post
 title:  The Weekly Tito Events Roundup
 date:   2013-08-12
 author: Paul Campbell
+author-img: paulca
 readingtime: 3
 tags: [weekly roundup]
 ---
