@@ -184,8 +184,9 @@ ul.posts.list {
         width: 80%;
 
         @media only screen and (max-height: 720px) {
+          font-size: 1.2em;
           left: 11px;
-          top: -57px;
+          top: -50px;
         }
       }
     }
