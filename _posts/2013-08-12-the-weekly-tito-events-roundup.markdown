@@ -10,7 +10,7 @@ tags: [weekly roundup]
 
 The [Great British Node Conference](https://tito.io/nodeuk/great-british-node-conference) goes on sale today, so what better day to do a roundup of some interesting events on Tito.
 
-Over 500 tickets have been sold accross 40 events in the last week on Tito. Here are some highlights.
+Over 500 tickets have been sold across 40 events in the last week on Tito. Here are some highlights.
 
 [Distill](http://distill.engineyard.com/), [Engine Yard](http://www.engineyard.com)'s first developer conference was last week, and [it sounds](https://twitter.com/distill) like it was a great show.
 
