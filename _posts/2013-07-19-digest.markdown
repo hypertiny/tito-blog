@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Digest
+title:  Digest Email
 date:   2013-07-19
 author: Doc Parsons
 author-img: drbparsons

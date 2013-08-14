@@ -1,0 +1,22 @@
+---
+layout: post
+title:  Digest Publication
+date:   2013-08-14
+author: Doc Parsons
+author-img: drbparsons
+tags:   [general, sponsorship]
+---
+
+We’re thrilled to introduce you to a new publication from our friends at Viewport Industries.
+
+<!--more-->
+
+<img src="{{ site.url }}/assets/images/2013-08-14-digest.png" alt="Digest" />
+
+Tito customers for their [Insites](https://tito.io/viewport-industries) events, [Viewport Industries](http://viewportindustries.com/) are [Keir Whitaker](http://twitter.com/keirwhitaker) and [Elliot Jay Stocks](http://twitter.com/elliotjaystocks). Time after time, these two redefine what it means to work on a side-project and we were super happy to help support Digest.
+
+> Digest is an attempt to bring the culture we’ve found on our travels around the globe to the printed page. We aim to provide a seasonal dose of inspiration for the discerning traveller and a reminder that the world away from our computers is ripe for exploration.
+
+On sale now, Digest is an intellectual and visual treat, and we can’t wait to get our hands on a copy.
+
+[readdigest.com](http://www.readdigest.com/)
