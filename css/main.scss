@@ -163,7 +163,7 @@ ul.posts.list {
         position: relative;
         width: 10em;
 
-        @media only screen and (max-height: 720px) {
+        @media only screen and (max-height: 786px) {
           width: 5em;
         }
       }
@@ -183,7 +183,7 @@ ul.posts.list {
         top: -100px;
         width: 80%;
 
-        @media only screen and (max-height: 720px) {
+        @media only screen and (max-height: 786px) {
           font-size: 1.2em;
           left: 11px;
           top: -50px;
@@ -250,7 +250,7 @@ ul.posts.list {
         display: inline-block;
         margin-left: 5px;
 
-        @media only screen and (max-height: 640px) {
+        @media only screen and (max-height: 658px) {
           display: none;
         }
 
@@ -340,8 +340,12 @@ ul.posts.list {
       position: static;
     }
 
-    @media only screen and (max-height: 720px) {
+    @media only screen and (max-height: 786px) {
       padding: 0 1em;
+    }
+
+    @media only screen and (max-height: 571px) {
+      position: relative;
     }
 
     ul {
