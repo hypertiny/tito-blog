@@ -12,7 +12,7 @@ This week, there have been a number of events selling tickets that are particula
 
 <!--more-->
 
-First up is [The Realtime Conference](http://2013.realtimeconf.com/). This was a conference that went from "I wish I could go" to "I have to be there" for me, making the 5000 mile trip less of a chore and more of a necessity. Apart from an amazing lineup, Eran Hammer's description rings strong: "It’s not a conference. It’s a platform for imagination." So far, hints of what to expect include a speaker list laid out as a "Cast" and Part One of a [leaked novel](http://2013.realtimeconf.com/part-one, which includes a Kindle Edition and an Audiobook. 
+First up is [The Realtime Conference](http://2013.realtimeconf.com/). This was a conference that went from "I wish I could go" to "I have to be there" for me, making the 5000 mile trip less of a chore and more of a necessity. Apart from an amazing lineup, Eran Hammer's description rings strong: "It’s not a conference. It’s a platform for imagination." So far, hints of what to expect include a speaker list laid out as a "Cast" and Part One of a [leaked novel](http://2013.realtimeconf.com/part-one), which includes a Kindle Edition and an Audiobook. 
 
 Next up is [LXJS](http://2013.lxjs.org). This is special because I relate so much to the ideals of a small city with a big ambition. Speaking with Nuno Jobs, he told me that one of the most important goals for the conference is to "help Portuguese developers be more aware of the opportunities they have to be happy". You can literally feel the love and enthusiasm on their site.
 
