@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  This Week on Tito: Close to My Heart
+title: "This Week on Tito: Close to My Heart"
 date:   2013-08-26
 author: Paul Campbell
 author-img: paulca
