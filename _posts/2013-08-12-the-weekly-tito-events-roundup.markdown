@@ -6,6 +6,7 @@ author: Paul Campbell
 author-img: paulca
 readingtime: 3
 tags: [weekly roundup]
+excerpt: Featuring the Great British Node Conference, Distill, Asymco Airshow, *Conf, BlendConf and So Coded
 ---
 
 The [Great British Node Conference](https://tito.io/nodeuk/great-british-node-conference) goes on sale today, so what better day to do a roundup of some interesting events on Tito.

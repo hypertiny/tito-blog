@@ -10,8 +10,8 @@ title: The Tito Blog
       <li>
         <a href="{{ post.url }}#read">
           <span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}
-          {% if post.content contains '<!--more-->' %}
-              {{ post.content | split:'<!--more-->' | first }}
+          {% if post.excerpt %}
+              <p>{{ post.excerpt }}</p>
           {% else %}
               <!-- Case for when no excerpt is defined -->
           {% endif %}

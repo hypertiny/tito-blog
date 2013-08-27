@@ -6,6 +6,7 @@ author: Paul Campbell
 author-img: paulca
 readingtime: 3
 tags: [weekly roundup]
+excerpt: Featuring Madison Ruby, HybridConf and Nearly Impossible
 ---
 
 I'm just back from the UK, where I spent an enjoyable two days at [HybridConf](http://hybridconf.net/), a conference started by Tito Founding Customer [Zach Inglis](https://twitter.com/zachinglis). The conference was an active effort to join the oft-disperate worlds of development and design together to "work together for a better web". Arguments and resolution between the design side and the development side have led to many great outcomes while building Tito, so this conference was of particular interest to me. It was a successful endeavour, bringing together people from both sides of the coin in a unique way. The spirit of creativity and optimism was palpable, and it was a great template for so-called "polyglot" conferences. We're often told that innovation happens at the intersection of design and development, and a conference to explore this is a great idea.
