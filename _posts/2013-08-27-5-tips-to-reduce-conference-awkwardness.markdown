@@ -3,6 +3,7 @@ layout: post
 title:  5 Tips To Reduce Conference Awkwardness
 date:   2013-08-27
 author: paul
+author-img: paulca
 readingtime: 3
 tags:
 excerpt: "Getting people to talk to each other is probably the single most valuable thing that a conference provides."
