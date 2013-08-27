@@ -49,6 +49,8 @@ A conference isn't a show, in the conventional sense. It's not supposed to be a 
 
 There are a number of seating arrangements available when you're decking out a meeting space: Theatre Style, Classroom Style and Cabaret Style (and, indeed Free Style, although you'll have to request that specially!). Theatre Style squishes the most people in, and you see it every time you go to a movie theatre or indeed, to the theatre. Classroom style gives everyone a little desk to write things on, but it's still rows of individual seats.
 
+Then there's cabaret style. Cabaret style uses round tables, where everyone sits at the table, but there are only chairs around half of the table, so everyone faces _mostly_ front.
+
 The great thing about cabaret style is that it sends a completely different message. With cabaret style, you both face the presentation and other attendees. Attendees can get up and move about without falling over themselves. Everyone has a desk to write on, but it doesn't feel stuffy. If I can make it happen, it's cabaret style every time.
 
 **5. Be Prepared!**
