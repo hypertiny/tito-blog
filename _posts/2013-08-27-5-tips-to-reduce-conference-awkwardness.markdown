@@ -57,7 +57,7 @@ Then there's cabaret style. Also known as "half-banquet" or "half-rounds" cabare
 
 The great thing about cabaret style is that it sends a completely different message. With cabaret style, you both face the presentation and other attendees. Attendees can get up and move about without falling over themselves. Everyone has a desk to write on, but it doesn't feel stuffy. If I can make it happen, it's cabaret style every time.
 
-**5. Be Prepared!**
+**5. Be prepared!**
 
 The fifth tip is just good old common sense, but I felt it important to say it anyway. Even if I'm planning on changing things up on the day, I like to know what I'm dealing with. As a conference organiser, people put a huge amount of faith in me to know what's happening. With that responsibility, I like to be prepared. In general, I'll meet with the venue on various occasions, and try to get to know all of the subtle details. If I have multiple venues, I try to get out and meet the people who will be in charge on the day. I rigorously research everyone who's speaking at the event, and in general just knowing who's responsible for all the details.
 
