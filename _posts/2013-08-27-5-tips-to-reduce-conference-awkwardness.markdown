@@ -15,6 +15,8 @@ In my opinion, one of the primary responsibilities of a conference is to reduce 
 
 In general, if there's an awkward moment on stage, people will tend to be polite, and sit quietly while things are sorted out. This isn't such a big deal, but what you're losing during these awkward moments are _opportunities for people to talk_. Getting people to talk to each other is probably the single most valuable thing that a conference provides.
 
+And so, here a few tips that will help de-awkwardify your event:
+
 **1. Know and share AV needs in advance**
 
 One of the pitfalls I that I try to avoid is the awkward moment when a speaker connects their laptop to the projector. This feeds into another tip about taking breaks between sessions, but it's important to get the AV part of it right. I like to find out all my AV tech specs ahead of time, and share them with everyone who will be presenting, so at the very least, there's no resolution surprises. If I'm going to have a super-bright projector in a darkened room, speakers know that even low-contrast slides will probably look good. If it's going to be a weak projector in a daylight-lit room, I'm going to want to stress that slides should be high contrast. Will there be a Mac or a PC available? Will there be video input/output adapters?
