@@ -9,7 +9,7 @@ tags: [general]
 excerpt: "Getting people to talk to each other is probably the single most valuable thing that a conference provides."
 ---
 
-On the [Giant Robots Podcast](https://learn.thoughtbot.com/giantrobots/61) 2 weeks ago, I talked about some of the steps that we used at [Úll](http://ull.ie) to reduce awkwardness at the conference. Awkwardness is one of those things that differentiates events that feel Pro from those that feel thrown together, but it's more than that.
+On the [Giant Robots Podcast](https://learn.thoughtbot.com/giantrobots/61) 2 weeks ago, I talked about some of the steps that we used at [Úll](http://ull.ie) to reduce awkwardness at the conference. Awkwardness is one of those things that differentiates events that feel "pro" from those that feel thrown together, but it's more than that.
 
 In my opinion, one of the primary responsibilities of a conference is to reduce the friction for attendee interactions and to [maximise serendipity](http://www.randsinrepose.com/archives/2011/10/03/building_serendipity.html). Awkwardness kills this. There are ways of doing this by _adding_ things to a conference, like a party in a bar, or helicopters, but there are things that every conference can do. These tips are especially relevant to new conference organisers, but I think that every conference could benefit from them.
 
