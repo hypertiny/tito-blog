@@ -45,7 +45,7 @@ Breaks allow breathing room between sessions. Time to ingest the previous talk, 
 
 As a bonus to this, I tend to avoid Q&A. Q&A, in my experience, is interesting for the person asking the question, and for the person answering, while everyone else sits politely. There are [notable exceptions](http://www.youtube.com/watch?v=a3MrpLyUOo8) to this, but on the whole, the risk of awkwardness at the expense of serendipity usually pushes me toward a no Q&A policy.
 
-**4. Use Cabaret style seating**
+**4. Use cabaret style seating**
 
 This isn't available to everyone, but wherever I've seen this used, it's been so much better than any other style of seating.
 
