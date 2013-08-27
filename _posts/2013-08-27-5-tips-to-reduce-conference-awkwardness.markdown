@@ -41,7 +41,7 @@ This made for much less awkwardness. The speaker doesn't have to share their app
 
 Following on again from the above, this is another rule that I like to keep to. 5 minutes is enough, but some conferences, such as [Nordic Ruby](nordicruby.org) have a 30 minute break between _every_ session.
 
-Breaks allow breathing room between sessions. Time to ingest the previous talk, but again, if we're trying to maximise converations, time to _discuss_ what was presented. There are so many other good reasons for taking breaks. A few minutes to catch up on work without worrying about missing anything. Time to review and post to Twitter or write a blog post or just catch up on a few emails.
+Breaks allow breathing room between sessions. Time to digest the previous talk, but again, if we're trying to maximise conversations, time to _discuss_ what was presented. There are so many other good reasons for taking breaks. A few minutes to catch up on work without worrying about missing anything. Time to review and post to Twitter or write a blog post or just catch up on a few emails.
 
 As a bonus to this, I tend to avoid Q&A. Q&A, in my experience, is interesting for the person asking the question, and for the person answering, while everyone else sits politely. There are [notable exceptions](http://www.youtube.com/watch?v=a3MrpLyUOo8) to this, but on the whole, the risk of awkwardness at the expense of serendipity usually pushes me toward a no Q&A policy.
 
@@ -53,7 +53,7 @@ A conference isn't a show, in the conventional sense. It's not supposed to be a 
 
 There are a number of seating arrangements available when you're decking out a meeting space: Theatre Style, Classroom Style and Cabaret Style (and, indeed Free Style, although you'll have to request that specially!). Theatre Style squishes the most people in, and you see it every time you go to a movie theatre or indeed, to the theatre. Classroom style gives everyone a little desk to write things on, but it's still rows of individual seats.
 
-Then there's cabaret style. Also known as "half-banquet" or "half-rounds" cabaret style uses round tables, where everyone sits at the table, but there are only chairs around half of the table, so everyone faces _mostly_ front. I first came accross this setup at [JSConf EU](http://jsconf.eu) in 2009, which was directly inspired by [Chris Williams's](https://twitter.com/voodootikigod) use at JSConf the same year. I've seen it used effectively a number of times since.
+Then there's cabaret style. Also known as "half-banquet" or "half-rounds" cabaret style uses round tables, where everyone sits at the table, but there are only chairs around half of the table, so everyone faces _mostly_ front. I first came across this setup at [JSConf EU](http://jsconf.eu) in 2009, which was directly inspired by [Chris Williams's](https://twitter.com/voodootikigod) use at JSConf the same year. I've seen it used effectively a number of times since.
 
 The great thing about cabaret style is that it sends a completely different message. With cabaret style, you both face the presentation and other attendees. Attendees can get up and move about without falling over themselves. Everyone has a desk to write on, but it doesn't feel stuffy. If I can make it happen, it's cabaret style every time.
 
