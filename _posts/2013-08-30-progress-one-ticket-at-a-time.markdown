@@ -9,7 +9,7 @@ tags: [New Features]
 excerpt: A new way to visualise your ticket sales.
 ---
 
-![](http://cl.ly/image/1e2H391v2q0Q/Image%202013.08.30%2017%3A30%3A57.png)
+![](http://f.cl.ly/items/28050Y0l073N3R3W1m0b/Image%202013.08.30%2017%3A41%3A08.png)
 
 Progress bars are an awesome way to get a quick snapshot of how your ticket sales are going, and we've made extensive use of them in building Tito.
 
