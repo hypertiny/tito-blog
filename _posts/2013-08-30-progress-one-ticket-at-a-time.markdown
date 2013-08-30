@@ -5,7 +5,7 @@ date:   2013-08-30
 author: Paul Campbell
 author-img: paulca
 readingtime: 3
-tags: [New Features]
+tags: [New features]
 excerpt: A new way to visualise your ticket sales.
 ---
 
