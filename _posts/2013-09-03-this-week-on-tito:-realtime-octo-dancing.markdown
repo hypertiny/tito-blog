@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  This Week on Tito: Realtime Octo-Dancing
+title:  "This Week on Tito: Realtime Octo-Dancing"
 date:   2013-09-03
 author: Paul Campbell
 author-img: paulca
 readingtime: 3
 tags: [weekly roundup]
-excerpt: Featuring Realtime Week, Bocoup Training, JSConf Colombia, The Octogala 2013, and Bristol Bad Film Club
+excerpt: "Featuring Realtime Week, Bocoup Training, JSConf Colombia, The Octogala 2013, and Bristol Bad Film Club"
 ---
 
 Over 1500 tickets were sold across nearly 80 events in the last week on Tito. Let's see some choice cuts.
