@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hi, I'm Obie"
+title:  '"Hi, I'm Obie"'
 date:   2013-09-03
 author-img: paulca
 author: Paul Campbell
