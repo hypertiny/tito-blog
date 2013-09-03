@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hi, I'm Obie"
+title:  "\"Hi, I'm Obie\""
 date:   2013-09-03
 author-img: paulca
 author: Paul Campbell
@@ -19,7 +19,7 @@ I'm an introvert. I like to keep to myself. Breaking out of that is hard. Fundam
 
 "Hi, I'm Obie" was the line that changed that.
 
-I had met David Heinemeier Hanssen in Berlin. It was the hallway track, and I skulked over to where he and his entourage were talking about Ruby modules and objects sharing the same namespace. I thanked him for his work on Rails, and I found out that he's not that in to beer. He prefers cocktails. The whole conversation was stilted and awkward, my heart was pounding the whole time. It was exhilerating, it was terrifying. It didn't feel natural, and it was such a huge thing for me. In the end, I was glad I did it, but it took a lot.
+I had met David Heinemeier Hansson in Berlin. It was the hallway track, and I skulked over to where he and his entourage were talking about Ruby modules and objects sharing the same namespace. I thanked him for his work on Rails, and I found out that he's not that in to beer. He prefers cocktails. The whole conversation was stilted and awkward, my heart was pounding the whole time. It was exhilerating, it was terrifying. It didn't feel natural, and it was such a huge thing for me. In the end, I was glad I did it, but it took a lot.
 
 Three months later, I was at drinks that had been organised in New York, New York. I was pretty high on the whole Vegas thing. Several folks who I'd met at Berlin were there. I turned around and one of them introduced Aslak Hellesoøy, the creator the cucumber testing tool, of which I was particularly enamoured. We got on great.
 
