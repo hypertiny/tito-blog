@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "This Week on Tito: Realtime Octo-Dancing"
-date:   2013-09-03
+date:   2013-09-02
 author: Paul Campbell
 author-img: paulca
 readingtime: 3
