@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Hi, I'm Obie"
+date:   2013-09-03
+author-img: paulca
+author: Paul Campbell
+readingtime: 3
+tags: [general]
+excerpt: '"Networking" is hard. This line changed everything for me.'
+---
+
+"Hi, I'm Obie". I'll never forget that one line, how it made me feel, and it completely changed my approach to attending every event since.
+
+I was 25 years old, and I'd flown 4000 miles to Las Vegas, to attend what I think was my second conference ever, RailsConf, in the USA. I'd been to RailsConf Europe in Berlin, which was an enjoyable experience, where I met some people who to this day I'm best friends with.
+
+Something about the Europe event felt wrong to me though: everything was terrifying.
+
+I'm an introvert. I like to keep to myself. Breaking out of that is hard. Fundamentally, I often wonder why anyone would want to talk to me, and breaking the ice is so, so, so hard for me.
+
+"Hi, I'm Obie" was the line that changed that.
+
+I had met David Heinemeier Hanssen in Berlin. It was the hallway track, and I skulked over to where he and his entourage were talking about Ruby modules and objects sharing the same namespace. I thanked him for his work on Rails, and I found out that he's not that in to beer. He prefers cocktails. The whole conversation was stilted and awkward, my heart was pounding the whole time. It was exhilerating, it was terrifying. It didn't feel natural, and it was such a huge thing for me. In the end, I was glad I did it, but it took a lot.
+
+Three months later, I was at drinks that had been organised in New York, New York. I was pretty high on the whole Vegas thing. Several folks who I'd met at Berlin were there. I turned around and one of them introduced Aslak Hellesoy, the creator the cucumber testing tool, of which I was particularly enamoured. We got on great.
+
+"Hi, I'm Obie"
+
+I'll never know why he said it to me at that point. Perhaps it was because I was talking to his old friend Aslak. Perhaps it was because I was blocking his way to the bar. At the time, Obie was _the shit_ in the Rails world. He was the author of "The Rails Way". He was the boss of the hottest Rails consultancy on the planet, Hashrocket, home to a flock of sunbleached hipster Rails devs who tested all the fucking time. He was the guy with the gall to post a pin-up glamour shot of himself on his tech blog. To a pasty-skinned newb from Ireland, he was, basically, a god.
+
+He put out his hand to shake my hand, looked me in the eye, and said "Hi, I'm Obie".
+
+"Hi, I'm Paul."
+
+I had never felt so loved. It was like the whole world was a bright light, and for just a second, it was just me and Obie. All he had done was introduced himself to me, but that simple gesture changed everything. It taught me, in a flash, two things: first, when Obie introduced himself, it put himself in such a humble position. He was giving control of the conversation to me. "Hi, I'm Obie", which was reflected by putting me so at ease. Second: I could do this too. Hand out, "Hi, I'm Paul".
+
+It's hard to overstate how many times I've stood around awkwardly in a group, had a super awkward conversation, then walked away without finding out who it was I was talking to.
+
+"Hi, I'm Obie". It's so, so obvious, but not so obvious that it didn't feel like a revelation to me. Every time since, if ever I've been in an awkward group at a conference, or stood next to someone who's looking just as awkward as I feel "Hi, I'm Paul" solves everything.
+
+Introducing yourself by name at a conference might not seem like a huge deal, but for me, it was just the recipe I needed to break the ice, to avoid the "what do I say now?" question.
+
+It seems so dorkish to have a recipe for how to break the ice at a conference, but some of us need something like this. The best part is that it's not _really_ a technique: people have been introducing themselves by name since society began. It just wasn't obvious to me. Obie showed me, empowered me, and gave me permission to introduce myself any time I want, and I'm so grateful he did.
+
