@@ -52,7 +52,6 @@ author: #{options[:author]}
 author-img: #{options['author-img']}
 tags: #{options[:tags]}
 readingtime: 3
-tags:
 ---
 ]
 end
