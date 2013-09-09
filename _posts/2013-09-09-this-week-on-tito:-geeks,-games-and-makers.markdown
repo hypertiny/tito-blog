@@ -21,6 +21,5 @@ Of course, the nascent Maker/Robots community has its own conference in December
 Some other cool conferences to watch are:
 - [Retune](http://retune.de/2013/) A "creative technology conference" in Berlin at the end of September.
 - [Cascadia Ruby 2013](https://tito.io/cascadiaruby/2013) The Pacific Northwest's Third Iteration of a massively popular conference. Mid-October.
-- [Chrome Dev Summit](http://developer.chrome.com/devsummit) Your chance to find out about the latest and greatest in the Chrome world direct from the engineers at Google. Coming in November.
 
 That's it for this week!
