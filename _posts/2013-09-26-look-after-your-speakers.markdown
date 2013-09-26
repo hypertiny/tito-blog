@@ -9,11 +9,11 @@ readingtime: 3
 excerpt: A guest post from Dermot Daly. Tips on how to make your speakers feel more at home.
 ---
 
-_a guest post from [Dermot Daly](http://twitter.com/dermdaly)_
+_A guest post from [Dermot Daly](http://twitter.com/dermdaly)._
 
 Further to [Paul's post on reducing awkwardness](http://blog.tito.io/2013/08/27/5-tips-to-reduce-conference-awkwardness.html), I thought it worthwhile to add some thoughts on reducing awkwardness for speakers.
 
-One thing we did for Úll, which I still think as hugely important is to ensure that speakers and delegates mix freely. We wanted every speaker to also feel like they were attending, and we wanted to ensure that attendees felt every bit as important to us as the speakers. So: No "green room" for speakers to hide away in, and only socialise among themselves. No special coloured speaker badges to make them stand out from other attendees, no speaker who attends, but leaves straight after their talk.
+One thing we did for [Úll](http://ull.ie), which I still think as hugely important is to ensure that speakers and delegates mix freely. We wanted every speaker to also feel like they were attending, and we wanted to ensure that attendees felt every bit as important to us as the speakers. So: No "green room" for speakers to hide away in, and only socialise among themselves. No special coloured speaker badges to make them stand out from other attendees, no speaker who attends, but leaves straight after their talk.
 
 Your speakers make your conference. Their talks are the reason people come, and form the foundations of conversations amongst your delegates. You owe it to them to reduce awkwardness for them too.
 
