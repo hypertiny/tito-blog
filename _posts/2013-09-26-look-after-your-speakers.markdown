@@ -35,13 +35,13 @@ Upon arrival, we have a personalised, individual welcome pack. This contains the
 - Detailed information on when their talk will occur
 - AV information
 - Information on local bars and restaurants
-- Our personal cell phone numebers, with instructions to call us if they need _anything_
+- Our personal cell phone numbers, with instructions to call us if they need _anything_
 
 **During the conference**
 
 With the quality of the speakers we've had at Úll, it's easy to forget that this is not their day job. It isn't - most of them have a "main" job, and talking is a side gig so remember, speakers may be nervous; We find more information alleviates this. Make sure they know: When their talk is, who is on before them, who is on after them, or if there's a break either side of their talk. Explain the process between the previous talk and when they take the stage.
 
-The AV setup is very important. For Úll we had a "WWDC" style setup. A large screen, and two speaker monitors which face the stage. On one speaker monitor is what is on the screen behind them, on the other we had presenter view, which shows what's coming next. (For geeks: This is achieved either with a Mac pro an an extra video card, or in the case of Úll, 2 iMacs, each showing the same presentation, both sync'd to 1 remote; one configured to show main screen, the other to show presenter mode.).
+The AV setup is very important. For Úll we had a "WWDC" style setup. A large screen, and two speaker monitors which face the stage. On one speaker monitor is what is on the screen behind them, on the other we had presenter view, which shows what's coming next. (For geeks: This is achieved either with a Mac pro an extra video card, or in the case of Úll, 2 iMacs, each showing the same presentation, both sync'd to 1 remote; one configured to show main screen, the other to show presenter mode.).
 
 Each speaker is given the resolution in advance, and ample time to set up their presentation on the AV setup. We also offered rehearsal time the day before should they need this.
 
