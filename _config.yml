@@ -1,4 +1,6 @@
 name: The Tito Blog
+description: "Tips, tricks, news and features related to organising events"
+url: http://blog.tito.io
 pygments: true
 # defaults
 sass:
