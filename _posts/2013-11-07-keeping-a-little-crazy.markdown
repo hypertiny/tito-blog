@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Keeping a Little Crazy"
-date:   2013-10-30
+date:   2013-11-07
 author: Paul Campbell
 author-img: paulca
 tags: [general]
@@ -26,4 +26,4 @@ People tend to criticise new ideas from the point of view of their own experienc
 
 For me, keeping an open mind is the best way to prevent this kind of thinking. We try to keep an open mind when discussing the future of Tito. No idea is too shit. No existing work is immune to deconstruction.  We try to create an atmosphere where anyone can say anything. 
 
-Sure, we're building an app that's ultimately being used by other people to help run their businesses. Crazy for crazy's sake won't cut it, but being a little crazy helps us bring ideas to the table that otherwise may have been shot down sooner. By allowing each other to pitch crazy, we often stumble upon the ideas that we're all most proud of.
+Sure, we're building an app that's ultimately being used by other people to help run their businesses. Crazy for crazy's sake won't cut it, but being a little crazy helps us bring ideas to the table that otherwise may have been shot down sooner. By allowing each other to pitch crazy, we often stumble upon the ideas that we're most proud of.
