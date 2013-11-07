@@ -16,7 +16,7 @@ Stripe is a massive business role model for me. That's why, during the few times
 
 The story he told that resonated with me most was about the foundation of the Stripe idea. The idea at the beginning was simple: to rethink payments on the internet. Having sold [Auctomatic](http://auctomatic.com/) as teenagers, the Collison brothers had more access to influential people in the payments industry than most.
 
-Unfortunately, when Patrick pitched the idea for Stripe to several influential figures in the payments industry, he got responses that he wasn't expecting "It's too hard", "it won't work, and here's why", "you won't be able to convince X or Y or Z".
+Unfortunately, when Patrick pitched the idea for Stripe to several influential figures in the payments industry, he got responses that he wasn't expecting: "It's too hard", "it won't work, and here's why", "you won't be able to convince X or Y or Z".
 
 Rather than going away excited and full of advice from people he respected, he was disillusioned because of their lack of belief.
 
