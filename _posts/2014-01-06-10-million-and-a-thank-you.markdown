@@ -20,5 +20,3 @@ Paul [already mentioned](http://blog.tito.io/2013/12/31/tito-in-2013-a-look-back
 I’d personally just like to thank all our customers and users who have been incredibly supportive over the last 12 months. In particular those taking the time to tweet about us, or recommend us to others. As well as our [founding customers](http://blog.tito.io/2013/08/07/introducing-our-founding-customers.html) who have supported us financially, word of mouth is invaluable as we bootstrap ourselves into the coming year.
 
 We wish you all a happy, healthy and productive 2014.
-
-— Doc
