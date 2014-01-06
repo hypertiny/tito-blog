@@ -15,7 +15,7 @@ This time last year the Tito team were smiling. Our fledgling service for sellin
 
 In 2013 Tito transitioned from a side project to a legitimate service that early users were asking to be charged for. 2014 is the year we grow and we ship.
 
-Paul [already mentioned](http://blog.tito.io/2013/12/31/tito-in-2013-a-look-back-and-a-quick-look-forward.html) some of the features we’ve been working on in his end of post. Keep an eye on the blog for some announcements soon.
+Paul [already mentioned](http://blog.tito.io/2013/12/31/tito-in-2013-a-look-back-and-a-quick-look-forward.html) some of the features we’ve been working on in his end-of-year post. Keep an eye on the blog for some announcements soon.
 
 I’d personally just like to thank all our customers and users who have been incredibly supportive over the last 12 months. In particular those taking the time to tweet about us, or recommend us to others. As well as our [founding customers](http://blog.tito.io/2013/08/07/introducing-our-founding-customers.html) who have supported us financially, word of mouth is invaluable as we bootstrap ourselves into the coming year.
 
