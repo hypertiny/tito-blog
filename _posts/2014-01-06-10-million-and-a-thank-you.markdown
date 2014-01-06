@@ -9,7 +9,7 @@ readingtime: 2
 excerpt: "This time last year the Tito team were smiling. Our fledgling service for selling tickets online had processed $1 million worth of tickets. Less than 12 months later we passed $10 million."
 ---
 
-<img src="http://localhost:4000/assets/images/2014-01-06-10m.png" alt="$10m" />
+<img src="/assets/images/2014-01-06-10m.png" alt="$10m" />
 
 This time last year the Tito team were smiling. Our fledgling service for selling tickets online had processed $1 million worth of tickets. Less than 12 months later we passed $10 million.
 
