@@ -12,16 +12,9 @@
         </title>
 
         <meta name="viewport" content="width=device-width,initial-scale=1">
-
         <link rel="shortcut icon" href="/assets/favicon.ico">
-
-        <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/stylesheets/css/syntax.css">
-
-        <!-- Custom CSS -->
         <link rel="stylesheet" href="/stylesheets/css/main.css">
-
-        <!-- Typekit -->
         <script type="text/javascript" src="//use.typekit.net/afe1hft.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
@@ -64,7 +57,7 @@
             
             <h2>Categories</h2>
             <ul class="tags">
-<!--               {% for category in taxonomy.categories %}
+              {% for category in site.pages.posts.taxonomy.categories %}
                 <li>
                   <a href="{{category.url}}">
                     {{category.value}}
@@ -73,8 +66,8 @@
                     </span>
                   </a>
                 </li>
-              {% endfor %} -->
-              <li>
+              {% endfor %}
+<!--               <li>
                 <a href="/posts/categories/general">
                   General
                   <span class="count">
@@ -117,7 +110,7 @@
                     1
                   </span>
                 </a>
-              </li>
+              </li> -->
 
             </ul>
 
