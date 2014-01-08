@@ -1,0 +1,49 @@
+{% include 'includes/header' %}
+{% if type == 'post' %}
+  
+    <div class="post">
+      <h2>{{ title }}</h2>
+      {% if meta['guest-author'] %}
+        <p class="meta author">
+        {% for asset in assets %}{% if asset.meta.avatar-url %}<img src="{{ asset.meta.avatar-url }}"/>{% endif %}{% endfor %} by {{ meta['guest-author']}}</p>
+      {% else %}
+        <p class="meta author"><img src="{{author.avatar}}"/> by {{author}}</p>
+      {% endif %}
+        
+      
+      <p class="meta">{{ date | date: "%d %b, %Y"}}</p>
+
+      <ul class="meta categories">
+        {% for category in taxonomy['categories'] %}
+          <li class="category">{{ category }}</li>
+        {% endfor %}
+      </ul>
+
+      {{body}}
+
+      <footer>Want to comment? You can find us <a href="http://twitter.com/usetito">on Twitter</a> or <a href="mailto:support@tito.io">drop us an email</a>, we’d love to hear from you.</footer>
+    </div>
+
+  
+
+{% elsif type == 'tag' %}
+  <div class="tag-page">
+    <h1 class="post_title">Posts Tagged &ldquo;{{title}}&rdquo;</h1>
+    <ul class="posts list">
+      {% for post in posts %}
+        <li>
+          <a href='{{post.url}}'>
+            <span>{{post.date | date_to_string}}</span> &raquo; {{post.title}}
+            {% if post.meta['excerpt'] %}
+                <p>{{ post.meta['excerpt'] }}</p>
+            {% else %}
+                <!-- Case for when no excerpt is defined -->
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+{% include 'includes/footer' %}

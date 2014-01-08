@@ -1,0 +1,21 @@
+{% include 'includes/header' %}
+
+<div id="home">
+  <h1>Latest Blog Posts</h1>
+  <ul class="posts list">
+    {% for post in site.posts limit: 20 %}
+      <li>
+        <a href="{{post.url}}">
+          <span>{{ post.date | date: "%d %b, %Y"}}</span> &raquo; {{ post.title }}
+          {% if post %}
+              {{ post.meta['excerpt'] | markdown }}
+          {% else %}
+              <!-- Case for when no excerpt is defined -->
+          {% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% include 'includes/footer' %}
