@@ -25,6 +25,10 @@ To push to Siteleaf type
 siteleaf push theme
 ```
 
+### Ignoring Files
+Siteleaf pushes whatever changes you have made in the directory but sometimes you may have added things that the theme doesn't need for it to render correctly such as readme's, sass files or 
+
+
 ## Posts
 There are some advanced things you can do with the posts to extend the basic functionality
 
