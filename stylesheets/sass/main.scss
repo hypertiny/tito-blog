@@ -144,6 +144,7 @@ ul.posts.list {
     width: 350px;
 
     @media only screen and (max-width: 700px) {
+      // display: none;
       padding: 2em 0 0 0;
       position: static;
       width: 100%;
@@ -154,6 +155,14 @@ ul.posts.list {
     }
 
     > a {
+      display: block;
+      
+
+      @media only screen and (max-width: 700px) {
+        float: left;
+        width: 50px;
+      }
+
       > img {
         display: block;
         left: 19px;
@@ -161,6 +170,8 @@ ul.posts.list {
         max-width: 100%;
         opacity: .7;
         position: relative;
+        -webkit-transition: all .2s linear;
+        -webkit-transform: scale(1);
         width: 10em;
 
         @media only screen and (max-height: 720px) {
@@ -191,16 +202,19 @@ ul.posts.list {
     }
 
     > a:hover {
-      > img {
-        opacity: .5;
-        -webkit-transition: all .2s linear;
-        -webkit-transform: scale(.95);
-        -webkit-transform-origin: center;
-      }
 
-      > span {
-        opacity: 1;
-        -webkit-transition: opacity .2s linear .25s;
+      @media only screen and (min-width: 700px) {
+        > img {
+          opacity: .5;
+          -webkit-transition: all .2s linear;
+          -webkit-transform: scale(.95);
+          -webkit-transform-origin: center;
+        }
+
+        > span {
+          opacity: 1;
+          -webkit-transition: opacity .2s linear;
+        }
       }
     }
 
@@ -210,6 +224,15 @@ ul.posts.list {
       margin: 1em 0 0 0;
       text-align: center;
 
+      @media only screen and (min-width: 500px) and (max-width: 700px) {
+        left: -25px;
+        position: relative;
+      }
+
+      @media only screen and (max-width: 700px) {
+        margin: 10px 0 40px;
+      }
+
      a {
         color: #1c3037;
         text-shadow: 0 1px 0 rgba(255,255,255,0.1);
@@ -218,11 +241,40 @@ ul.posts.list {
 
     h2 {
       border-top: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       font-size: .7em;
       letter-spacing: 2px;
-      padding: 1em 0;
+      padding: 0;
       text-align: center;
       text-transform: uppercase;
+    }
+
+    .showcats {
+      color: #1c3037;
+      cursor: pointer;
+      display: block;
+      padding: 15px;
+
+      @media only screen and (min-width: 700px) {
+        cursor: text;
+      }
+
+      i {
+        -webkit-transform: rotate(0deg);
+        -webkit-transition: all .2s linear;
+
+        @media only screen and (min-width: 700px) {
+          display: none;
+        }
+      }
+
+      &.open {
+        i {
+          text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1);
+          -webkit-transform: rotate(180deg);
+          -webkit-transition: all .2s linear;
+        }
+      }
     }
 
     > p {
@@ -231,6 +283,10 @@ ul.posts.list {
       margin: .7em 0 .9em;
       text-align: center;
       text-shadow: 0 1px 0 rgba(255,255,255,0.1);
+
+      @media only screen and (max-width: 700px) {
+        display: none;
+      }
 
       @media only screen and (max-height: 640px) {
         display: none;
@@ -244,6 +300,10 @@ ul.posts.list {
       list-style-type: none;
       padding-bottom: 2em;
       text-align: center;
+
+      @media only screen and (max-width: 700px) {
+        display: none;
+      }
 
       li {
         display: inline-block;
@@ -278,9 +338,13 @@ ul.posts.list {
     }
 
     ul.tags {
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      display: block;
       list-style-type: none;
+
+      @media only screen and (max-width: 700px) {
+        display: none;
+      }
 
       li {
         line-height: 1.5;
@@ -335,6 +399,7 @@ ul.posts.list {
     width: 100%;
 
     @media only screen and (max-width: 700px) {
+      background: transparent;
       border-top: none;
       position: static;
     }
@@ -431,6 +496,8 @@ ul.posts.list {
 /*****************************************************************************/
 
 #home {
+  max-width: 1200px;
+
   h1 {
     margin: 2em 15% 1em 15%;
 
@@ -451,6 +518,8 @@ ul.posts.list {
 /*****************************************************************************/
 
 .tag-page {
+  max-width: 1200px;
+
   h1 {
     margin: 2em 15% 1em 15%;
 
@@ -473,6 +542,7 @@ ul.posts.list {
 /* standard */
 .post {
   margin: 2em 15% 0;
+  max-width: 900px;
 
   @media only screen and (max-width: 1330px) {
     margin: 2em 10% 1em 10%;
