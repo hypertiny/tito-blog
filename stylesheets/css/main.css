@@ -443,7 +443,7 @@ ul.posts.list {
     line-height: 1.5em;
     overflow-x: auto;
     padding: .4em; }
-  .post ul, .post ol {
+  .post > ul, .post > ol {
     margin-left: 1.35em; }
   .post img {
     max-width: 100%; }
