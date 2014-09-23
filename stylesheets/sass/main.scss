@@ -86,8 +86,8 @@ ul.posts.list {
   }
 
   &:hover a {
-    opacity: .2;
-    -webkit-transition: opacity .1s linear;
+    // opacity: .2;
+    // -webkit-transition: opacity .1s linear;
   }
 
   li {
@@ -95,31 +95,31 @@ ul.posts.list {
   }
 
   a {
-    display: block;
-    margin: 0;
-    padding-bottom: 2em;
+    // display: block;
+    // margin: 0;
+    // padding-bottom: 2em;
 
     @media only screen and (max-width: 700px) {
-      text-align: left;
+      // text-align: left;
     }
 
     &:hover {
-      opacity: 1;
-      text-decoration: none;
+      // opacity: 1;
+      // text-decoration: none;
     }
 
     span {
-      color: #aaa;
-      font-family: Monaco, "Courier New", monospace;
-      font-size: 80%;
-      word-spacing: -3px;
+      // color: #aaa;
+      // font-family: Monaco, "Courier New", monospace;
+      // font-size: 80%;
+      // word-spacing: -3px;
     }
 
     p {
-      color: #757575;
-      font-size: .8em;
-      line-height: 2;
-      margin: 5px 0 0 0;
+      // color: #757575;
+      // font-size: .8em;
+      // line-height: 2;
+      // margin: 5px 0 0 0;
     }
   }
 }

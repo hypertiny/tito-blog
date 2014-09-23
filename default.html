@@ -2,7 +2,13 @@
 {% if type == 'post' %}
   
     <div class="post">
-      <h2>{{ title }}</h2>
+      {% if taxonomy['categories']['Link'] %}
+        <h2>Link: <a href="{{ meta['Link'] }}">{{ title }}</a></h2>
+        <a href="{{ url }}">permalink</a>
+      {% else %}
+        <h2><a href="{{ url }}">{{ title }}</a></h2>
+        <a href="{{ url }}">permalink</a>
+      {% endif %}
       {% if meta['guest-author'] %}
         <p class="meta author">
         {% for asset in assets %}{% if asset.meta.avatar-url %}<img src="{{ asset.meta.avatar-url }}"/>{% endif %}{% endfor %} by {{ meta['guest-author']}}</p>

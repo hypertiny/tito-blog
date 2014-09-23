@@ -62,31 +62,8 @@ ul.posts.list {
   @media only screen and (max-width: 700px) {
     ul.posts.list {
       margin: 2em 5% 1em 5%; } }
-  ul.posts.list:hover a {
-    opacity: .2;
-    -webkit-transition: opacity .1s linear; }
   ul.posts.list li {
     line-height: 1.25; }
-  ul.posts.list a {
-    display: block;
-    margin: 0;
-    padding-bottom: 2em; }
-    @media only screen and (max-width: 700px) {
-      ul.posts.list a {
-        text-align: left; } }
-    ul.posts.list a:hover {
-      opacity: 1;
-      text-decoration: none; }
-    ul.posts.list a span {
-      color: #aaa;
-      font-family: Monaco, "Courier New", monospace;
-      font-size: 80%;
-      word-spacing: -3px; }
-    ul.posts.list a p {
-      color: #757575;
-      font-size: .8em;
-      line-height: 2;
-      margin: 5px 0 0 0; }
 
 /*****************************************************************************/
 /*
