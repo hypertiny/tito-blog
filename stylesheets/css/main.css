@@ -15,6 +15,9 @@
 /*****************************************************************************/
 /* Global Reset */
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
@@ -238,8 +241,8 @@ ul.posts.list {
         border: 5px solid #1c3037;
         border-radius: 20px;
         display: inline-block;
-        height: 30px;
-        width: 30px; }
+        height: 40px;
+        width: 40px; }
         .site header ul.team li a:hover {
           border: 5px solid #101e23; }
         .site header ul.team li a img {
