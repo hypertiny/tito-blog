@@ -2,12 +2,10 @@
 {% if type == 'post' %}
   
     <div class="post">
-      {% if taxonomy['categories']['Link'] %}
-        <h2>Link: <a href="{{ meta['Link'] }}">{{ title }}</a></h2>
-        <a href="{{ url }}">permalink</a>
+      {% if taxonomy['categories']['Links'] %}
+        <h2><a href="{{ meta['Link'] }}"><i class="fa fa-external-link"></i>{{ title }}</a></h2>
       {% else %}
         <h2><a href="{{ url }}">{{ title }}</a></h2>
-        <a href="{{ url }}">permalink</a>
       {% endif %}
       {% if meta['guest-author'] %}
         <p class="meta author">
@@ -17,7 +15,9 @@
       {% endif %}
         
       
-      <p class="meta">{{ date | date: "%d %b, %Y"}}</p>
+      <p class="meta date">{{ date | date: "%d %b, %Y"}}</p>
+
+      <a class="meta perma" href="{{ post.url }}"><i class="fa fa-link"></i></a>
 
       <ul class="meta categories">
         {% for category in taxonomy['categories'] %}
@@ -26,7 +26,7 @@
       </ul>
 
       {{body}}
-
+      
       <footer>Want to comment? You can find us <a href="http://twitter.com/usetito">on Twitter</a> or <a href="mailto:support@tito.io">drop us an email</a>, we’d love to hear from you.</footer>
     </div>
 
@@ -39,12 +39,7 @@
       {% for post in posts %}
         <li>
           <a href='{{post.url}}'>
-            <span>{{post.date | date_to_string}}</span> &raquo; {{post.title}}
-            {% if post.meta['excerpt'] %}
-                <p>{{ post.meta['excerpt'] }}</p>
-            {% else %}
-                <!-- Case for when no excerpt is defined -->
-            {% endif %}
+            {{post.title}} <span>{{post.date | date_to_string}}</span>
           </a>
         </li>
       {% endfor %}

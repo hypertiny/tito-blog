@@ -310,7 +310,7 @@ ul.posts.list {
   line-height: 1.5em;
   position: absolute;
   right: 0;
-  text-align: justify;
+  text-align: left;
   top: 0;
   width: 100%; }
   @media only screen and (max-width: 700px) {
@@ -368,6 +368,19 @@ ul.posts.list {
     @media only screen and (max-width: 700px) {
       .tag-page h1 {
         margin: 2em 5% 1em 5%; } }
+  .tag-page ul.list a {
+    display: block;
+    padding: 10px; }
+    .tag-page ul.list a:hover {
+      background: #f1f1f1;
+      text-decoration: none; }
+  .tag-page ul.list a span {
+    color: #aaa;
+    float: right; }
+    @media only screen and (max-width: 1330px) {
+      .tag-page ul.list a span {
+        float: none;
+        display: block; } }
 
 /*****************************************************************************/
 /*
@@ -386,6 +399,10 @@ ul.posts.list {
     .post {
       margin: 2em 5% 1em 5%;
       text-align: left; } }
+  .post > h2 a i {
+    color: #aaa;
+    font-size: 14px;
+    padding-right: 10px; }
   .post .meta {
     color: #aaa;
     display: inline; }
@@ -401,6 +418,9 @@ ul.posts.list {
           display: none; } }
     .post .meta.author:after {
       content: " \2022"; }
+    .post .meta.perma {
+      float: right;
+      opacity: .5; }
   .post ul.meta {
     display: block; }
   .post .categories {

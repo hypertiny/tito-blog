@@ -453,7 +453,7 @@ ul.posts.list {
   line-height: 1.5em;
   position: absolute;
   right: 0;
-  text-align: justify;
+  text-align: left;
   top: 0;
   width: 100%;
 
@@ -532,6 +532,30 @@ ul.posts.list {
       margin: 2em 5% 1em 5%;
     }
   }
+
+  ul.list li {
+    // margin-bottom: 10px;
+  }
+
+  ul.list a {
+    display: block;
+    padding: 10px;
+
+    &:hover {
+      background: #f1f1f1;
+      text-decoration: none;
+    }
+  }
+
+  ul.list a span {
+    color: #aaa;
+    float: right;
+
+    @media only screen and (max-width: 1330px) {
+      float: none;
+      display: block;
+    }
+  }
 }
 
 /*****************************************************************************/
@@ -552,6 +576,14 @@ ul.posts.list {
   @media only screen and (max-width: 700px) {
     margin: 2em 5% 1em 5%;
     text-align: left;
+  }
+
+  > h2 {
+    a i {
+      color: #aaa;
+      font-size: 14px;
+      padding-right: 10px;
+    }
   }
 
   .meta {
@@ -575,6 +607,17 @@ ul.posts.list {
       &:after {
         content: " \2022";
       }
+    }
+
+    &.date {
+      &:after {
+        // content: " \2022";
+      }
+    }
+
+    &.perma {
+      float: right;
+      opacity: .5;
     }
   }
 

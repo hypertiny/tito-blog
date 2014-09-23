@@ -14,11 +14,10 @@
           <!-- {% endif %} -->
         <!-- </a> -->
         <div class="post">
-          {% if post.taxonomy['categories']['Link'] %}
-            <h2>Link: <a href="{{ post.meta['Link'] }}">{{ post.title }}</a></h2>
+          {% if post.taxonomy['categories']['Links'] %}
+            <h2><a href="{{ post.meta['Link'] }}"><i class="fa fa-external-link"></i>{{ post.title }}</a></h2>
           {% else %}
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <a href="{{ post.url }}">permalink</a>
           {% endif %}
           {% if post.meta['guest-author'] %}
             <p class="meta author">
@@ -28,7 +27,9 @@
           {% endif %}
             
           
-          <p class="meta">{{ post.date | date: "%d %b, %Y"}}</p>
+          <p class="meta date">{{ post.date | date: "%d %b, %Y"}}</p>
+
+          <a class="meta perma" href="{{ post.url }}"><i class="fa fa-link"></i></a>
 
           <ul class="meta categories">
             {% for category in post.taxonomy['categories'] %}
@@ -37,8 +38,7 @@
           </ul>
 
           {{post.body}}
-
-          <footer>Want to comment? You can find us <a href="https://twitter.com/usetito">on Twitter</a> or <a href="mailto:support@tito.io">drop us an email</a>, we’d love to hear from you.</footer>
+          
         </div>
       </li>
     {% endfor %}
