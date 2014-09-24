@@ -148,6 +148,8 @@ blockquote:after {
 }
 blockquote p {
   display: inline;
+  font-family: "kepler-std", courier, georgia, serif;
+  opacity: .5;
 }
 
 /*****************************************************************************/
