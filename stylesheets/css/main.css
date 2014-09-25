@@ -433,7 +433,8 @@ blockquote p {
 /*****************************************************************************/
 /* standard */
 .post {
-  margin: 2em 15% 0;
+  border-bottom: 3px solid #f5f7f9;
+  margin: 2em 15% 4em;
   max-width: 900px;
   /* terminal */ }
   @media only screen and (max-width: 1330px) {
