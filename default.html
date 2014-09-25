@@ -4,6 +4,8 @@
     <div class="post">
       {% if taxonomy['categories']['Links'] %}
         <h2><a href="{{ meta['Link'] }}"><i class="fa fa-external-link"></i>{{ title }}</a></h2>
+      {% elsif taxonomy['categories']['Changelog'] %}
+        <h2><a href="{{ url }}"><i class="fa fa-wrench"></i>{{ title }}</a></h2>
       {% else %}
         <h2><a href="{{ url }}">{{ title }}</a></h2>
       {% endif %}
@@ -25,7 +27,13 @@
         {% endfor %}
       </ul>
 
-      {{body}}
+      {% if taxonomy['categories']['Changelog'] %}
+        <div class="changelog">
+          {{body}}
+        </div>
+      {% else %}
+        {{body}}
+      {% endif %}
       
       <footer>Want to comment? You can find us <a href="http://twitter.com/usetito">on Twitter</a> or <a href="mailto:support@tito.io">drop us an email</a>, we’d love to hear from you.</footer>
     </div>

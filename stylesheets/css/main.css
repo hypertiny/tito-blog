@@ -92,6 +92,23 @@ blockquote p {
   font-family: "kepler-std", georgia, serif;
   opacity: .5; }
 
+.changelog.post {
+  background: #f5f7f9;
+  border: 1px solid #d5dee6;
+  border-radius: 5px;
+  font-family: 'courier new', courier, monospace;
+  font-size: 14px;
+  padding: 20px; }
+  .changelog.post h2 {
+    margin-bottom: 5px; }
+  .changelog.post .meta {
+    color: #000;
+    display: inline; }
+  .changelog.post .meta.author img {
+    border: 1px solid #d5dee6;
+    margin-left: -60px;
+    top: -30px; }
+
 /*****************************************************************************/
 /*
 /* Sidebar
