@@ -12,6 +12,8 @@
       {% if meta['guest-author'] %}
         <p class="meta author">
         {% for asset in assets %}{% if asset.meta.avatar-url %}<img src="{{ asset.meta.avatar-url }}"/>{% endif %}{% endfor %} by {{ meta['guest-author']}}</p>
+      {% elsif taxonomy['categories']['Links'] %}
+        <p class="meta author"><img src="{{author.avatar}}"/> posted by {{author}}</p>
       {% else %}
         <p class="meta author"><img src="{{author.avatar}}"/> by {{author}}</p>
       {% endif %}
