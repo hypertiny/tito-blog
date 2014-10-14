@@ -31,7 +31,11 @@
             <p class="meta author">
             {% for asset in assets %}{% if asset.meta.avatar-url %}<img src="{{ asset.meta.avatar-url }}"/>{% endif %}{% endfor %} by {{ post.meta['guest-author']}}</p>
           {% elsif post.taxonomy['categories']['Changelog'] %}
-            <p class="meta author"><img src="assets/wrench.png" /> #Changelog</p>
+            <p class="meta author">
+              <a href="{{ post.url }}">
+                <img src="/assets/wrench.png" />
+              </a>
+            #Changelog</p>
           {% elsif post.taxonomy['categories']['Links'] %}
             <p class="meta author"><img src="{{post.author.avatar}}"/> posted by {{post.author}}</p>
           {% else %}
@@ -47,9 +51,7 @@
             <a class="meta perma" href="{{ post.url }}"><i class="fa fa-link"></i></a>
           {% endif %}
           
-          {% if post.taxonomy['categories']['Changelog'] %}
-
-          {% else %}
+          {% if !post.taxonomy['categories']['Changelog'] %}
             <ul class="meta categories">
               {% for category in post.taxonomy['categories'] %}
                 <li class="category">{{ category }}</li>
@@ -58,14 +60,6 @@
           {% endif %}
 
           {{post.body}}
-
-          <!-- {% if post.taxonomy['categories']['Changelog'] %}
-            <div class="changelog">
-              {{post.body}}
-            </div>
-          {% else %}
-            {{post.body}}
-          {% endif %} -->
 
         </div>
       </li>

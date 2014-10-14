@@ -1,17 +1,28 @@
 {% include 'includes/header' %}
 {% if type == 'post' %}
   
-    <div class="post">
+    {% if taxonomy['categories']['Changelog'] %}
+      <div class="post changelog">
+    {% else %}
+      <div class="post">
+    {% endif %}
       {% if taxonomy['categories']['Links'] %}
         <h2><a href="{{ meta['Link'] }}"><i class="fa fa-external-link"></i>{{ title }}</a></h2>
       {% elsif taxonomy['categories']['Changelog'] %}
-        <h2><a href="{{ url }}"><i class="fa fa-wrench"></i>{{ title }}</a></h2>
+        <h2>{{ title }}</h2>
       {% else %}
         <h2><a href="{{ url }}">{{ title }}</a></h2>
       {% endif %}
       {% if meta['guest-author'] %}
         <p class="meta author">
         {% for asset in assets %}{% if asset.meta.avatar-url %}<img src="{{ asset.meta.avatar-url }}"/>{% endif %}{% endfor %} by {{ meta['guest-author']}}</p>
+      {% elsif taxonomy['categories']['Changelog'] %}
+        <p class="meta author">
+          <a href="{{ url }}">
+            <img src="/assets/wrench.png" />
+          </a>
+          #Changelog
+        </p>
       {% elsif taxonomy['categories']['Links'] %}
         <p class="meta author"><img src="{{author.avatar}}"/> posted by {{author}}</p>
       {% else %}
@@ -21,13 +32,19 @@
       
       <p class="meta date">{{ date | date: "%d %b, %Y"}}</p>
 
-      <a class="meta perma" href="{{ post.url }}"><i class="fa fa-link"></i></a>
+      {% if taxonomy['categories']['Changelog'] %}
+        <p class="meta">&bull; {{author}}</p>
+      {% else %}
+        <a class="meta perma" href="{{ url }}"><i class="fa fa-link"></i></a>
+      {% endif %}
 
-      <ul class="meta categories">
-        {% for category in taxonomy['categories'] %}
-          <li class="category">{{ category }}</li>
-        {% endfor %}
-      </ul>
+      {% if !post.taxonomy['categories']['Changelog'] %}
+        <ul class="meta categories">
+          {% for category in taxonomy['categories'] %}
+            <li class="category">{{ category }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
 
       {% if taxonomy['categories']['Changelog'] %}
         <div class="changelog">
