@@ -54,12 +54,7 @@
             <ul class="tags">
               {% for category in site.pages.posts.taxonomy.categories %}
                 <li>
-                  <a href="{{category.url}}">
-                    {{category.value}}
-                    <span class="count">
-                      {{ category.posts | size}}
-                    </span>
-                  </a>
+                  <a href="{{category.url}}">{{category.value}}</a>
                 </li>
               {% endfor %}
             </ul>
