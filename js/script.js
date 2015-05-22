@@ -1,4 +1,6 @@
 $( document ).ready(function() {
+
+    $(".post").fitVids();
  
     $('.showcats').click(function( event ) {
 
