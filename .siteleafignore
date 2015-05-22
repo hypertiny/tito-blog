@@ -1,4 +1,5 @@
 *.scss
+*.css.map
 *.sublime-project
 *.sublime-workspace
 README.md
