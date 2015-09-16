@@ -1,70 +1,55 @@
 {% include 'includes/header' %}
 
-<div id="home">
-  <ul class="posts list">
-    {% for post in site.posts limit: 20 %}
-      <li>
-        <!-- <a href="{{post.url}}"> -->
-          <!-- <span>{{ post.date | date: "%d %b, %Y"}}</span> &raquo; {{ post.title }} -->
+{% for post in site.posts limit:10 %}
 
-          <!-- {% if post %} -->
-              <!-- {{ post.meta['excerpt'] | markdown }} -->
-          <!-- {% else %} -->
-              <!-- Case for when no excerpt is defined -->
-          <!-- {% endif %} -->
-        <!-- </a> -->
-        
-        {% if post.taxonomy['categories']['Changelog'] %}
-          <div class="post changelog">
+  <div class="section typeset {% for category in post.taxonomy['categories'] %}{{ category | downcase }}{% endfor %}">
+
+    {% if post.meta['hero'] %}
+      <img class="hero" src="{{post.meta['hero']}}" alt="{{ post.title }} Image">
+    {% endif %}
+
+    <div class="single">
+      {% if post.taxonomy['categories']['Links'] %}
+        <h1 class="delta"><a href="{{ post.meta['Link'] }}">{{ post.title }} <i class="fa fa-external-link"></i></a></h1>
+      {% elsif post.taxonomy['categories']['Changelog'] %}
+        <h1 class="delta">Changelog</h1>
+        <h2 class="epsilon">{{ post.title }}</h2>
+      {% else %}
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      {% endif %}
+
+      <ul class="globals--meta caption">
+        {% if post.taxonomy['categories']['Links'] %}
+          <li><time>{{ post.date | date: "%d %b, %Y"}}</time></li>
+          <li>Posted by {{post.author}}</li>
+          <li class="globals--meta--categories"><i class="fa fa-tag"></i> 
+            {% for category in post.taxonomy['categories'] %}
+              <a href="{{category.url}}">{{ category }}</a>
+            {% endfor %}
+          </li>
         {% else %}
-          <div class="post">
+          <li><time>{{ post.date | date: "%d %b, %Y"}}</time></li>
+          <li>Words by {{post.author}}</li>
+          <li class="globals--meta--categories"><i class="fa fa-tag"></i> 
+            {% for category in post.taxonomy['categories'] %}
+              <a href="{{category.url}}">{{ category }}</a>
+            {% endfor %}
+          </li>
+          <li><i class="fa fa-anchor"></i> <a href="{{ post.url }}">Permalink</a></li>
         {% endif %}
+      </ul>
 
-          {% if post.taxonomy['categories']['Links'] %}
-            <h2><a href="{{ post.meta['Link'] }}"><i class="fa fa-external-link"></i>{{ post.title }}</a></h2>
-          {% elsif post.taxonomy['categories']['Changelog'] %}
-            <h2>{{ post.title }}</h2>
-          {% else %}
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          {% endif %}
-          {% if post.meta['guest-author'] %}
-            <p class="meta author">
-            {% for asset in assets %}{% if asset.meta.avatar-url %}<img src="{{ asset.meta.avatar-url }}"/>{% endif %}{% endfor %} by {{ post.meta['guest-author']}}</p>
-          {% elsif post.taxonomy['categories']['Changelog'] %}
-            <p class="meta author">
-              <a href="{{ post.url }}">
-                <img src="/assets/wrench.png" />
-              </a>
-            #Changelog</p>
-          {% elsif post.taxonomy['categories']['Links'] %}
-            <p class="meta author"><img src="{{post.author.avatar}}"/> posted by {{post.author}}</p>
-          {% else %}
-            <p class="meta author"><img src="{{post.author.avatar}}"/> by {{post.author}}</p>
-          {% endif %}
-            
-          
-          <p class="meta date">{{ post.date | date: "%d %b, %Y"}}</p>
-          
-          {% if post.taxonomy['categories']['Changelog'] %}
-            <p class="meta">&bull; {{post.author}}</p>
-          {% else %}
-            <a class="meta perma" href="{{ post.url }}"><i class="fa fa-link"></i></a>
-          {% endif %}
-          
-          {% if !post.taxonomy['categories']['Changelog'] %}
-            <ul class="meta categories">
-              {% for category in post.taxonomy['categories'] %}
-                <li class="category">{{ category }}</li>
-              {% endfor %}
-            </ul>
-          {% endif %}
+      {{post.body}}
 
-          {{post.body}}
+      {% if post.meta['via'] %}
+        <p class="caption">via {{post.meta['via']}}</p>
+      {% endif %}
 
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+      <p class="caption">Want to comment? You can find us <a href="http://twitter.com/usetito">on Twitter</a> or <a href="mailto:support@tito.io">drop us an email</a>, we’d love to hear from you.</p>
+
+    </div>
+  </div>
+
+{% endfor %}
 
 {% include 'includes/footer' %}

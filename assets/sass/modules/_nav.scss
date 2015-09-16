@@ -67,6 +67,7 @@
 
   .main-nav__list {
     border-top: 0.1rem solid darken($white, 15%);
+    background-color: #fff;
 
     @include breakpoint(break-1) {
       border: 0;
@@ -97,8 +98,7 @@
       padding: 10px 3%;
 
       &:hover, &:active, &:focus {
-        background-color: $linkColour;
-        color: $white;
+        background-color: rgba(0,0,0,0.05);
       }
     }
 
@@ -155,7 +155,7 @@
     line-height: 0;
     position: absolute;
     right: 3%;
-    top: 1.3rem;
+    top: 2.5rem;
 
     &:after {
       background-image: url(../img/menu.svg);

@@ -1,14 +1,33 @@
 // Global demo styles
 // ---------------------------------------
 
+html {
+  background: linear-gradient(55deg, #609CCF 0%, #4A5C71 100%) no-repeat fixed;
+}
+
 body {
-  background-color: $backgroundColour;
+  // background-color: $backgroundColour;
   color: $bodyColour;
   overflow-x: hidden;
+  // padding-top: 120px;
+}
+
+.category {
+  i.fa {
+    color: $captionColour;
+    padding-right: .25rem;
+  }
+}
+
+.typeset {
+  i.fa {
+    font-style: normal;
+  }
 }
 
 .section {
-  padding: 2rem 0;
+  // padding: 2rem 0;
+  // margin-bottom: 20px;
 
   @include breakpoint(break-1) {
     padding: 3rem 0;

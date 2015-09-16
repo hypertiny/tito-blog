@@ -1,17 +1,43 @@
 // Footer demo styles
 // ---------------------------------------
 
-.global-footer {
+.global-footer.typeset {
 
   p {
-    color: $captionColour;
+    color: #fff;
     font-family: unquote(map-get($headingtype, font-family));
     font-style: normal;
     font-weight: map-get($headingtype, regular);
-    padding: 1rem 0;
+    padding: 0;
     margin: 0;
     text-align: center;
 
     @include fontsize(eta, all);
+
+    br {
+        @include breakpoint(break-2) {
+            display: none;
+        }
+    }
+  }
+
+  a {
+    background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,50%) 50%);
+    background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,50%) 50%);
+    background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($linkColour,50%) 50%);
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($linkColour,50%) 50%);
+    background-position: 0 93%;
+    background-repeat: repeat-x;
+    background-size: 100% 0.15rem;
+    color: #fff;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+        background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+        background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
+    }
   }
 }

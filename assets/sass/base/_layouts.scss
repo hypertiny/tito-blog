@@ -3,10 +3,16 @@
 
 // Container.
 .section {
-  margin: 0 auto;
+  background: $backgroundColour;
+  margin: 0 auto 20px;
+  padding: 2rem 3%;
   position: relative;
-  width: 94%;
+  width: 100%;
   @include clearfix;
+
+  @include breakpoint(break-1) {
+    width: 94%;
+  }
 
   @include breakpoint(break-3) {
     @include maxwidth(3);
@@ -237,35 +243,5 @@
       @include ideal-measure(4, medium, false);
       @include ideal-measure(4, medium, true, left);
     }
-  }
-}
-
-.hero-image {
-
-  @include breakpoint(break-1) {
-    // height: 230px;
-    // margin-top: 19px;
-    // margin-left: -37.35%;
-    
-    // position: absolute;
-  }
-
-  @include breakpoint(break-4) {
-    // height: 494px;
-    // margin-left: -39.35%;
-    margin-bottom: 8px;
-  }
-}
-
-.hero-image + p,
-.hero-image + blockquote {
-  margin-top: 2rem;
-
-  @include breakpoint(break-1) {
-    // margin-top: 327px;
-  }
-
-  @include breakpoint(break-2) {
-    // margin-top: 597px;
   }
 }

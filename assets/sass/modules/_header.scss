@@ -2,15 +2,8 @@
 // ---------------------------------------
 
 .global-header {
-  background-color: $backgroundColour;
-  background-image: linear-gradient(55deg, #609CCF 0%, #4A5C71 100%);
-
-
-
-
-
   font-size: 0;
-  height: 300px;
+  // height: 120px;
 
   &__logo {
     background-image: url(../img/tito.svg);
@@ -50,7 +43,6 @@
 
     li {
       display: inline-block;
-      // float: left;
       margin: 0 1rem;
 
       a {

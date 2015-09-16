@@ -48,7 +48,7 @@ a {
     background-position: 0 93%;
     background-repeat: repeat-x;
     background-size: 100% 0.15rem;
-    text-shadow: 0.1rem 0 $backgroundColour,0.15rem 0 $backgroundColour,-0.1rem 0 $backgroundColour,-0.15rem 0 $backgroundColour;
+    // text-shadow: 0.1rem 0 $backgroundColour,0.15rem 0 $backgroundColour,-0.1rem 0 $backgroundColour,-0.15rem 0 $backgroundColour;
 
     &:hover, &:active, &:focus {
       background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,lighten($hoverColour,20%) 50%);
@@ -104,16 +104,19 @@ a {
   // Heading level 4.
   h4, .delta {
     @include sassline(delta, $headingtype, 2, 0, all);
+    font-weight: 100;
   }
 
   // Heading level 5.
   h5, .epsilon {
     @include sassline(epsilon, $headingtype, 2, 0, all);
+    font-weight: 100;
   }
 
   // Heading level 6.
   h6, .zeta {
     @include sassline(zeta, $headingtype, 2, 0, all);
+    font-weight: 100;
   }
 
   // Lists.
@@ -132,6 +135,10 @@ a {
       @include breakpoint(break-1) {
         margin-left: 0;
       }
+    }
+
+    ul, ol {
+      margin-left: 2rem;
     }
   }
 
@@ -178,6 +185,34 @@ a {
 
     p {
       border-left: 0.15rem solid $linkColour;
+      position: relative;
+
+      @include breakpoint(break-2) {
+        border-left: none;
+
+        &:before {
+          color: $captionColour;
+          content: '“';
+          font-family: Georgia;
+          font-size: 10rem;
+          opacity: .3;
+          position: absolute;
+            top: 3rem;
+            left: -4rem;
+        }
+
+        &:after {
+          color: $captionColour;
+          content: '”';
+          font-family: Georgia;
+          font-size: 10rem;
+          opacity: .3;
+          position: absolute;
+            bottom: -2rem;
+            right: -3rem;
+        }
+      }
+
       font-style: map-get($bodytype, italic);
       padding-left: 1rem;
 
@@ -279,5 +314,18 @@ a {
     -ms-font-feature-settings: 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'onum' 1, 'kern' 1;
     font-feature-settings: 'onum' 1, 'kern' 1;
+  }
+}
+
+.typeset {
+  .single {
+    p img.image-inline {
+      clear: both;
+      float: right;
+      margin-right: -10rem;
+      padding-left: 2rem;
+      padding-bottom: 2rem;
+      max-width: 25rem;
+    }
   }
 }

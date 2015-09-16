@@ -1,6 +1,26 @@
-          </div><!-- /content -->
-        </div><!-- /site -->
-      </div> <!-- /container -->
+<!--           </div>
+        </div>
+      </div> -->
+
+      </section>
+
+      <footer class="global-footer typeset">
+        <p>Proudly made in Dublin, Ireland.</p>
+        <p>Registered office: 64 Mount Street Lower, Dublin 2, Ireland. <br>VAT Number: IE7594267U.</p>
+        <p>&copy; <a href="http://teamtito.ie">Team Tito Limited</a> 2015. All rights reserved. <br><a href="https://ti.to/terms">Terms &amp; Conditions</a> and <a href="https://ti.to/privacy">Privacy Policy</a>.</p>
+      </footer>
+
+      <script>
+      var navigation = responsiveNav(".main-nav");
+
+      // Grid toggle
+      function changeClass() {
+        if ( document.getElementById("baseline").className.match(/(?:^|\s)show-grid(?!\S)/) ) {
+          document.getElementById("baseline").className = document.getElementById("baseline").className.replace( /(?:^|\s)show-grid(?!\S)/g , '' )
+        } else { document.getElementById("baseline").className += " show-grid"; }
+      }
+      document.getElementById("gridtoggle").addEventListener( 'click' , changeClass );
+      </script>
 
       <!-- Gauges -->
       <script type="text/javascript">

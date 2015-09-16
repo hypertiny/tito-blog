@@ -1,0 +1,223 @@
+// Siteleaf styles
+// ---------------------------------------
+
+// Styles relating specifically to Siteleaf posts
+
+h1, h2, h3, h4, h5, h6 {
+  a {
+    color: $headingColour;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $linkColour;
+    }
+  }
+}
+
+.tag-page {
+  h1 {
+    color: $linkColour;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      border-bottom: 1px solid $captionColour;
+      padding: 10px 0 5px;
+    }
+
+    a {
+      color: $bodyColour;
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $linkColour;
+      }
+
+      .tag-date {
+        float: left;
+      }
+
+      .tag-title {
+        display: block;
+        margin-left: 200px;
+      }
+    }
+  }
+}
+
+.section.typeset.changelog {
+  background: #fff url('../img/blueprint.png') repeat scroll 0 0;
+}
+
+.section.typeset.links {
+  background: rgba(255,255,255,1);
+
+  h1 {
+
+    a {
+      background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,$headingColour 50%);
+      background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,$headingColour 50%);
+      background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,$headingColour 50%);
+      background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$headingColour 50%);
+      background-position: 0 93%;
+      background-repeat: repeat-x;
+      background-size: 100% 0.15rem;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
+        background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
+        background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
+        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$linkColour 50%);
+      }
+    }
+
+    .fa {
+      @include fontsize(11);
+    }
+  }
+}
+
+.section.categories {
+  background: transparent;
+  margin-bottom: 0rem;
+  padding: 0;
+
+  @include breakpoint(break-2) {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    @include clearfix;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      @include fontsize(11, 0);
+
+      display: inline-block;
+      float: left;
+      margin: 0;
+      text-align: center;
+      width: 50%;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: rgba(0,0,0,0.05);
+
+        @include breakpoint(break-2) {
+          background-color: transparent;
+        }
+      }
+
+      @include breakpoint(break-2) {
+        width: 25%;
+      }
+
+      .fa {
+        color: $captionColour;
+      }
+
+      a {
+        background-image: none;
+        color: $white;
+        display: inline-block;
+        padding: 1.3rem 1rem 1rem;
+
+        @include breakpoint(break-2) {
+          padding: 0;
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+
+          @include breakpoint(break-2) {
+            background-image: -webkit-linear-gradient(top,rgba(0, 0, 0, 0) 50%,#fff 50%);
+            background-image: -moz-linear-gradient(top,rgba(0, 0, 0, 0) 50%,#fff 50%);
+            background-image: -o-linear-gradient(top,rgba(0, 0, 0, 0) 50%,#fff 50%);
+            background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,#fff 50%);
+            background-position: 0 93%;
+            background-repeat: repeat-x;
+            background-size: 100% 0.15rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.typeset {
+  .globals--meta {
+    list-style-type: none;
+
+    li {
+      display: block;
+      margin: 0;
+
+      @include breakpoint(break-2) {
+        display: inline-block;
+        margin: 0 1rem;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .globals--meta--categories {
+      a {
+        &:after {
+          content: ", ";
+        }
+
+        &:last-child:after {
+          content: "";
+        }
+      }
+    }
+
+    time {
+      color: #000;
+    }
+
+    a {
+      background-image: none;
+      color: $captionColour;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-image: none;
+        color: $linkColour;
+      }
+    }
+  }
+}
+
+img.hero {
+  margin: -2rem 0 2rem -3%;
+  width: 106%;
+
+  @include breakpoint(break-1) {
+    margin: -4rem auto 2rem;
+    width: 100%;
+  }
+}
+
+.linkslink {
+  @include ellipsis;
+  display: block;
+}

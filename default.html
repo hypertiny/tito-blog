@@ -1,77 +1,71 @@
 {% include 'includes/header' %}
+
 {% if type == 'post' %}
-  
-    {% if taxonomy['categories']['Changelog'] %}
-      <div class="post changelog">
-    {% else %}
-      <div class="post">
+
+  <div class="section typeset {% for category in taxonomy['categories'] %}{{ category | downcase }}{% endfor %}">
+    {% if meta['hero'] %}
+      <img class="hero" src="{{meta['hero']}}" alt="{{ title }} Image">
     {% endif %}
+    
+    <div class="single">
       {% if taxonomy['categories']['Links'] %}
-        <h2><a href="{{ meta['Link'] }}"><i class="fa fa-external-link"></i>{{ title }}</a></h2>
+        <h1 class="delta"><a href="{{ meta['Link'] }}">{{ title }} <i class="fa fa-external-link"></i></a></h1>
       {% elsif taxonomy['categories']['Changelog'] %}
-        <h2>{{ title }}</h2>
+        <h1 class="delta">Changelog</h1>
+        <h2 class="epsilon">{{ title }}</h2>
       {% else %}
-        <h2><a href="{{ url }}">{{ title }}</a></h2>
-      {% endif %}
-      {% if meta['guest-author'] %}
-        <p class="meta author">
-        {% for asset in assets %}{% if asset.meta.avatar-url %}<img src="{{ asset.meta.avatar-url }}"/>{% endif %}{% endfor %} by {{ meta['guest-author']}}</p>
-      {% elsif taxonomy['categories']['Changelog'] %}
-        <p class="meta author">
-          <a href="{{ url }}">
-            <img src="/assets/wrench.png" />
-          </a>
-          #Changelog
-        </p>
-      {% elsif taxonomy['categories']['Links'] %}
-        <p class="meta author"><img src="{{author.avatar}}"/> posted by {{author}}</p>
-      {% else %}
-        <p class="meta author"><img src="{{author.avatar}}"/> by {{author}}</p>
-      {% endif %}
-        
-      
-      <p class="meta date">{{ date | date: "%d %b, %Y"}}</p>
-
-      {% if taxonomy['categories']['Changelog'] %}
-        <p class="meta">&bull; {{author}}</p>
-      {% else %}
-        <a class="meta perma" href="{{ url }}"><i class="fa fa-link"></i></a>
+        <h1><a href="{{ url }}">{{ title }}</a></h1>
       {% endif %}
 
-      {% if !post.taxonomy['categories']['Changelog'] %}
-        <ul class="meta categories">
-          {% for category in taxonomy['categories'] %}
-            <li class="category">{{ category }}</li>
-          {% endfor %}
-        </ul>
+      <ul class="globals--meta caption">
+        {% if taxonomy['categories']['Links'] %}
+          <li><time>{{ date | date: "%d %b, %Y"}}</time></li>
+          <li>Posted by {{author}}</li>
+          <li class="globals--meta--categories"><i class="fa fa-tag"></i> 
+            {% for category in taxonomy['categories'] %}
+              <a href="{{category.url}}">{{ category }}</a>
+            {% endfor %}
+          </li>
+        {% else %}
+          <li><time>{{ date | date: "%d %b, %Y"}}</time></li>
+          <li>Words by {{author}}</li>
+          <li class="globals--meta--categories"><i class="fa fa-tag"></i> 
+            {% for category in taxonomy['categories'] %}
+              <a href="{{category.url}}">{{ category }}</a>
+            {% endfor %}
+          </li>
+          <li><i class="fa fa-anchor"></i> <a href="{{ post.url }}">Permalink</a></li>
+        {% endif %}
+      </ul>
+
+      {{body}}
+
+      {% if meta['via'] %}
+        <p class="caption">via {{meta['via']}}</p>
       {% endif %}
 
-      {% if taxonomy['categories']['Changelog'] %}
-        <div class="changelog">
-          {{body}}
-        </div>
-      {% else %}
-        {{body}}
-      {% endif %}
-      
-      <footer>Want to comment? You can find us <a href="http://twitter.com/usetito">on Twitter</a> or <a href="mailto:support@tito.io">drop us an email</a>, we’d love to hear from you.</footer>
+      <p class="caption">Want to comment? You can find us <a href="http://twitter.com/usetito">on Twitter</a> or <a href="mailto:support@tito.io">drop us an email</a>, we’d love to hear from you.</p>
     </div>
-
-  
+  </div>  
 
 {% elsif type == 'tag' %}
-  <div class="tag-page">
-    <h1 class="post_title">Posts Tagged &ldquo;{{title}}&rdquo;</h1>
-    <ul class="posts list">
-      {% for post in posts %}
-        <li>
-          <a href='{{post.url}}'>
-            {{post.title}} <span>{{post.date | date_to_string}}</span>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+
+  <div class="section typeset tag-page">
+    <div class="single">
+      <h1><i class="fa fa-tags"></i> {{title}}</h1>
+      <ul>
+        {% for post in posts %}
+          <li>
+            <a href='{{post.url}}'>
+              <span class="tag-date">{{post.date | date_to_string}}</span>
+              <span class="tag-title">{{post.title}}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
+
 {% endif %}
 
 {% include 'includes/footer' %}

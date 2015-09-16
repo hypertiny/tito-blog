@@ -406,7 +406,7 @@ $max-widths: map-values($maxwidths);
   }
 }
 
-// Clearfix.
+// Clearfix
 @mixin clearfix {
   &:before, &:after{
     display: table;
@@ -415,4 +415,11 @@ $max-widths: map-values($maxwidths);
   &:after{
     clear: both;
   }
+}
+
+// Ellipsis
+@mixin ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
