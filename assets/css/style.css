@@ -384,20 +384,22 @@ a {
         color: #BDC8CC;
         content: '“';
         font-family: Georgia;
-        font-size: 10rem;
+        font-size: 8rem;
         opacity: .3;
         position: absolute;
         top: 3rem;
-        left: -4rem; }
+        left: -4rem;
+        width: 70px; }
       .typeset blockquote p:after {
         color: #BDC8CC;
         content: '”';
         font-family: Georgia;
-        font-size: 10rem;
+        font-size: 8rem;
         opacity: .3;
         position: absolute;
         bottom: -2rem;
-        right: -3rem; } }
+        right: -3rem;
+        width: 70px; } }
   @media screen and (min-width: 40em) {
     .typeset blockquote p {
       margin-bottom: 1.80142rem;
