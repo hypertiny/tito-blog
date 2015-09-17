@@ -56,7 +56,7 @@ $gutterwidths: (
 // Add weight and style details too.
 // ! Set cap height to set to the baseline.
 $bodytype: (
-  font-family: 'Myriad Pro, sans-serif',
+  font-family: 'myriad-pro', 'Helvetica Neue', Helvetica, sans-serif;,
   regular: 400,
   bold: 700,
   italic: italic,
@@ -64,10 +64,10 @@ $bodytype: (
 );
 
 $headingtype: (
-  font-family: 'Myriad Pro, sans-serif',
+  font-family: 'myriad-pro', 'Helvetica Neue', Helvetica, sans-serif;,
   regular: 400,
   bold: 700,
-  cap-height: 0.65
+  cap-height: 0.66
 );
 
 $monospacetype: (
