@@ -954,23 +954,21 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .section.typeset.changelog {
   background: #fff url("../img/blueprint.png") repeat scroll 0 0; }
 
-.section.typeset.links {
-  background: white; }
-  .section.typeset.links h1 a {
-    background-image: -webkit-linear-gradient(top, transparent 50%, #2E2E2E 50%);
-    background-image: -moz-linear-gradient(top, transparent 50%, #2E2E2E 50%);
-    background-image: -o-linear-gradient(top, transparent 50%, #2E2E2E 50%);
-    background-image: linear-gradient(to bottom, transparent 50%, #2E2E2E 50%);
-    background-position: 0 93%;
-    background-repeat: repeat-x;
-    background-size: 100% 0.15rem; }
-    .section.typeset.links h1 a:hover, .section.typeset.links h1 a:focus, .section.typeset.links h1 a:active {
-      background-image: -webkit-linear-gradient(top, transparent 50%, #5d95c5 50%);
-      background-image: -moz-linear-gradient(top, transparent 50%, #5d95c5 50%);
-      background-image: -o-linear-gradient(top, transparent 50%, #5d95c5 50%);
-      background-image: linear-gradient(to bottom, transparent 50%, #5d95c5 50%); }
-  .section.typeset.links h1 .fa {
-    font-size: 0.91667rem; }
+.section.typeset.links h1 a {
+  background-image: -webkit-linear-gradient(top, transparent 50%, #2E2E2E 50%);
+  background-image: -moz-linear-gradient(top, transparent 50%, #2E2E2E 50%);
+  background-image: -o-linear-gradient(top, transparent 50%, #2E2E2E 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #2E2E2E 50%);
+  background-position: 0 93%;
+  background-repeat: repeat-x;
+  background-size: 100% 0.15rem; }
+  .section.typeset.links h1 a:hover, .section.typeset.links h1 a:focus, .section.typeset.links h1 a:active {
+    background-image: -webkit-linear-gradient(top, transparent 50%, #5d95c5 50%);
+    background-image: -moz-linear-gradient(top, transparent 50%, #5d95c5 50%);
+    background-image: -o-linear-gradient(top, transparent 50%, #5d95c5 50%);
+    background-image: linear-gradient(to bottom, transparent 50%, #5d95c5 50%); }
+.section.typeset.links h1 .fa {
+  font-size: 0.91667rem; }
 
 .section.categories {
   background: transparent;
