@@ -66,8 +66,8 @@
   }
 
   .main-nav__list {
-    border-top: 0.1rem solid darken($white, 15%);
-    background-color: #fff;
+    border-top: 0.1rem solid #384656;
+    background-color: #4a5c71;
 
     @include breakpoint(break-1) {
       border: 0;
@@ -91,8 +91,8 @@
       -ms-user-select: none;
       user-select: none;
 
-      border-bottom: 0.1rem solid darken($white, 15%);
-      color: $linkColour;
+      border-bottom: 0.1rem solid #384656;
+      color: $white;
       cursor: pointer;
       display: block;
       padding: 10px 3%;

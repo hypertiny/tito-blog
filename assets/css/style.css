@@ -851,8 +851,8 @@ img {
     width: calc(100% - 132px - 2rem);
     vertical-align: middle; } }
 .main-nav .main-nav__list {
-  border-top: 0.1rem solid #d9d9d9;
-  background-color: #fff; }
+  border-top: 0.1rem solid #384656;
+  background-color: #4a5c71; }
   @media screen and (min-width: 40em) {
     .main-nav .main-nav__list {
       border: 0;
@@ -870,8 +870,8 @@ img {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border-bottom: 0.1rem solid #d9d9d9;
-    color: #5d95c5;
+    border-bottom: 0.1rem solid #384656;
+    color: #FFFFFF;
     cursor: pointer;
     display: block;
     padding: 10px 3%; }
@@ -989,12 +989,24 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     .section.categories ul:after {
       clear: both; }
     .section.categories ul li {
-      font-size: 0.91667rem;
+      font-size: 1.19167rem;
       display: inline-block;
       float: left;
       margin: 0;
       text-align: center;
       width: 50%; }
+      @media screen and (min-width: 40em) {
+        .section.categories ul li {
+          font-size: 1.09286rem; } }
+      @media screen and (min-width: 50em) {
+        .section.categories ul li {
+          font-size: 1.08667rem; } }
+      @media screen and (min-width: 64em) {
+        .section.categories ul li {
+          font-size: 0.99412rem; } }
+      @media screen and (min-width: 100em) {
+        .section.categories ul li {
+          font-size: 0.92632rem; } }
       .section.categories ul li:hover, .section.categories ul li:focus, .section.categories ul li:active {
         background-color: rgba(0, 0, 0, 0.05); }
         @media screen and (min-width: 50em) {
