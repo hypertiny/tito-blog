@@ -686,44 +686,46 @@ a {
     max-width: 36.46154%;
     left: 63.53846%; } }
 
-.global-footer.typeset p {
-  color: #fff;
-  font-family: myriad-pro, Helvetica Neue, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  font-size: 1.19167rem; }
-  @media screen and (min-width: 40em) {
-    .global-footer.typeset p {
-      font-size: 1.09286rem; } }
-  @media screen and (min-width: 50em) {
-    .global-footer.typeset p {
-      font-size: 1.08667rem; } }
-  @media screen and (min-width: 64em) {
-    .global-footer.typeset p {
-      font-size: 0.99412rem; } }
-  @media screen and (min-width: 100em) {
-    .global-footer.typeset p {
-      font-size: 0.92632rem; } }
-  @media screen and (min-width: 50em) {
-    .global-footer.typeset p br {
-      display: none; } }
-.global-footer.typeset a {
-  background-image: -webkit-linear-gradient(top, transparent 50%, white 50%);
-  background-image: -moz-linear-gradient(top, transparent 50%, white 50%);
-  background-image: -o-linear-gradient(top, transparent 50%, white 50%);
-  background-image: linear-gradient(to bottom, transparent 50%, white 50%);
-  background-position: 0 93%;
-  background-repeat: repeat-x;
-  background-size: 100% 0.15rem;
-  color: #fff; }
-  .global-footer.typeset a:hover, .global-footer.typeset a:active, .global-footer.typeset a:focus {
-    background-image: -webkit-linear-gradient(top, transparent 50%, #1257ea 50%);
-    background-image: -moz-linear-gradient(top, transparent 50%, #1257ea 50%);
-    background-image: -o-linear-gradient(top, transparent 50%, #1257ea 50%);
-    background-image: linear-gradient(to bottom, transparent 50%, #1257ea 50%); }
+.global-footer.typeset {
+  margin-bottom: 20px; }
+  .global-footer.typeset p {
+    color: #fff;
+    font-family: myriad-pro, Helvetica Neue, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 1.19167rem; }
+    @media screen and (min-width: 40em) {
+      .global-footer.typeset p {
+        font-size: 1.09286rem; } }
+    @media screen and (min-width: 50em) {
+      .global-footer.typeset p {
+        font-size: 1.08667rem; } }
+    @media screen and (min-width: 64em) {
+      .global-footer.typeset p {
+        font-size: 0.99412rem; } }
+    @media screen and (min-width: 100em) {
+      .global-footer.typeset p {
+        font-size: 0.92632rem; } }
+    @media screen and (min-width: 50em) {
+      .global-footer.typeset p br {
+        display: none; } }
+  .global-footer.typeset a {
+    background-image: -webkit-linear-gradient(top, transparent 50%, white 50%);
+    background-image: -moz-linear-gradient(top, transparent 50%, white 50%);
+    background-image: -o-linear-gradient(top, transparent 50%, white 50%);
+    background-image: linear-gradient(to bottom, transparent 50%, white 50%);
+    background-position: 0 93%;
+    background-repeat: repeat-x;
+    background-size: 100% 0.15rem;
+    color: #fff; }
+    .global-footer.typeset a:hover, .global-footer.typeset a:active, .global-footer.typeset a:focus {
+      background-image: -webkit-linear-gradient(top, transparent 50%, #1257ea 50%);
+      background-image: -moz-linear-gradient(top, transparent 50%, #1257ea 50%);
+      background-image: -o-linear-gradient(top, transparent 50%, #1257ea 50%);
+      background-image: linear-gradient(to bottom, transparent 50%, #1257ea 50%); }
 
 html {
   background: linear-gradient(55deg, #609CCF 0%, #4A5C71 100%) no-repeat fixed; }
