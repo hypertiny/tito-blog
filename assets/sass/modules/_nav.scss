@@ -106,7 +106,7 @@
       display: inline-block;
       letter-spacing: 0.1rem;
       margin-right: 1rem;
-      padding: 1rem;
+      padding: 0;
       text-transform: uppercase;
       width: auto;
 
@@ -116,18 +116,18 @@
         border: 0;
         color: $white;
         display: inline;
-        padding: 0;
+        padding: 1rem;
 
         &:hover, &:active, &:focus {
           background-color: transparent;
-          color: $linkColour;
+          border-bottom: 1px solid #fff;
         }
       }
     }
 
     &.active {
       a {
-        border-bottom: 1px solid;
+        border-bottom: 1px solid #fff;
       }
     }
 

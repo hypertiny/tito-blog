@@ -883,8 +883,8 @@ img {
     .main-nav li {
       display: inline-block;
       letter-spacing: 0.1rem;
-      margin-right: 2rem;
-      padding: 1rem 0;
+      margin-right: 1rem;
+      padding: 0;
       text-transform: uppercase;
       width: auto;
       font-size: 0.85714rem; }
@@ -892,10 +892,12 @@ img {
         border: 0;
         color: #FFFFFF;
         display: inline;
-        padding: 0; }
+        padding: 1rem; }
         .main-nav li a:hover, .main-nav li a:active, .main-nav li a:focus, .main-nav li span:hover, .main-nav li span:active, .main-nav li span:focus {
           background-color: transparent;
-          color: #5d95c5; } }
+          border-bottom: 1px solid #fff; } }
+  .main-nav li.active a {
+    border-bottom: 1px solid #fff; }
   @media screen and (min-width: 50em) {
     .main-nav li {
       font-size: 0.8rem; } }
