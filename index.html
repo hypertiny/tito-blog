@@ -2,7 +2,7 @@
 
 {% for post in site.posts limit:10 %}
 
-  <div class="section typeset {% for category in post.taxonomy['categories'] %}{{ category | downcase }}{% endfor %}">
+  <div class="section typeset {% for category in post.taxonomy['categories'] %} {{ category | downcase }} {% endfor %}">
 
     {% if post.meta['hero'] %}
       <img class="hero" src="{{post.meta['hero']}}" alt="{{ post.title }} Image">
