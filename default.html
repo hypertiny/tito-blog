@@ -2,7 +2,7 @@
 
 {% if type == 'post' %}
 
-  <div class="section typeset {% for category in taxonomy['categories'] %}{{ category | downcase }} {% endfor %}">
+  <div class="section typeset {% for category in taxonomy['categories'] %} {{ category | downcase }} {% endfor %}">
     {% if meta['hero'] %}
       <img class="hero" src="{{meta['hero']}}" alt="{{ title }} Image">
     {% endif %}
