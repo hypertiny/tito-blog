@@ -220,3 +220,9 @@ img.hero {
   @include ellipsis;
   display: block;
 }
+
+.section.typeset.general.tutorials {
+  p img {
+    border: 1px solid #d0d0d0;
+  }
+}

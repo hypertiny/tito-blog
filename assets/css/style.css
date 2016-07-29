@@ -1077,6 +1077,9 @@ img.hero {
   text-overflow: ellipsis;
   display: block; }
 
+.section.typeset.general.tutorials p img {
+  border: 1px solid #d0d0d0; }
+
 #baseline.show-grid {
   background-image: -webkit-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
   background-image: -moz-linear-gradient(top, cyan 0, rgba(255, 255, 255, 0) 1px);
